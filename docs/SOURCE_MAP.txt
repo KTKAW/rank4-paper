@@ -1,0 +1,102 @@
+SOURCE MAP FOR THE REVISED DRAFT
+
+Local materials reconciled
+Paper_draft/main.tex/.pdf, README.txt, SOURCE_MAP.txt, verify_examples.py;
+Quiver_Paper.pdf; short_paper_supplement.pdf; important proofs.zip; research/;
+and the complete Fable review bundle were available locally. Selected
+original notes and documentation are preserved in docs/sources. Source
+existence, sizes and hashes: docs/checks/source_audit.json. The original
+research tree and draft were not overwritten.
+
+The manuscript is self-contained relative to its cited external theorems.
+Local notes are provenance, not a substitute for Appendix A's proof.
+Quiver_Paper and the supplement supplied the excursion strategy and signed
+algebra. The new text adds the explicit correction, direct seed proof,
+proper-order endpoint step, conventions, algorithm and measured experiments.
+Further explicit identities and fork frames were added during the audit.
+
+Paper-to-code and formal statement mapping
+1. Conventions and proper orders (Section 1):
+   algorithm/classifier.py: matrix, mutate, proper_vertices, wiggle_classes,
+   proper_classes, proper_mutate, scalar, pfaffian.
+   lean/QuiverProofs/ProperEndpoint.lean: endpointTopological4.
+   lean/QuiverProofs/MAHasTotalProper4Completion.lean: maHasTotalProper4.
+2. Corrected census (Section 2):
+   scripts/census.py -> experiments/census.json; independent scripts/verify.py.
+   lean/QuiverProofs/BoundedClassificationCompletion.lean:
+     QuiverProofs.BoundedClassification.corrected_bounded_classification,
+     bounded_MA_iff_short_bounded, bounded_MA_iff_three_mutations,
+     semantic_connected_MA_count and the other semantic class counts.
+   Actual immediate dependencies: BoundedClassificationAssembly and
+   BoundedClassificationNegative. The latter combines all 134 all-word
+   negative proofs (affine families, bounded L-star, hereditary triangles,
+   structural unit boxes and continuation regions). It does not prove the
+   Python census's particular 46/1/86 certificate partition. The Python
+   proof of that partition is separate and does not use height coverage.
+3. Polynomial obstruction (Section 3):
+   lean/Rank4Formula/PolynomialTail.lean;
+   lean/Rank7Adversarial/PolynomialAlternation.lean;
+   lean/Rank4Round7/Coordinator/NoPolynomialSignClassifier.lean;
+   lean/Rank4Round8/Arithmetic/AlternatingLineParity.lean,
+     AlternatingLineRecognizer.lean, AlternatingIntegerLine.lean.
+   The Lean no-go is rational-coefficient; the paper gives the short real-
+   coefficient extension. Chelnokov is an explicit external dependency.
+4. Finite paths and algorithm (Section 4 and Appendix A):
+   lean/Rank4CoordinatorR2/ClassificationCompletion.lean:
+     Rank4Classification.heightCoverage, effectiveWordBound, classify4_ma_iff.
+   Immediate imports: DecisionAlgorithm, Rank4Round2.UnitResidualAssembly,
+     Rank4C7A41E.HeightConsumer.
+   Strong-pair proofs: Rank4CoordinatorR2/StrongForward.lean and the
+     Rank4ReviewRound2/StrongPair*.lean family.
+   Zero/unit detours: Rank4Round2/ZeroSquare.lean, UnitDetour.lean,
+     UnitMAGuard.lean, and associated consumer/geometry modules.
+   Signed residuals: Rank4StructureRound2/UnitN2*.lean,
+     MixedIncidentEqual*.lean, plus Rank4Round2 unit residual assemblies.
+   Equal-wall recursive regions: MixedIncidentEqualCore and root phases.
+   Source manifest gives the complete transitive closure and build order.
+   The assembly's original algorithm enumerates words. The separate
+     lean/Rank4Round8/Reduction/ChoiceFreeListDedup.lean proves
+     listFrontierBoxInvariantDedup_MA_iff / _NMA_iff and
+     inputListFrontierMutationEvalsDedup_le for a deduplicated frontier.
+   Python implements those mathematical search semantics with dictionaries;
+   no extraction or Python/Lean refinement theorem is claimed.
+5. Numerical evidence (Section 5):
+   experiments/run.py -> inputs.json, raw.jsonl, environment.json.
+   experiments/summarize.py -> summary.csv, statistics.json, paper/results.tex,
+     paper/figures/performance.pdf and .png.
+   scripts/verify.py independently replays saved positive words and bounds.
+6. Finite closed class (Appendix B):
+   scripts/finite_table.py uses independent matrix routines in verify.py.
+   24 labelled states, 96 closed transitions, 576 acyclicity order tests.
+7. Formal provenance (Appendix C):
+   lean/source-manifest.json: original source path, original and packaged
+     SHA256, modified flag, selected roots and dependency-first build order.
+   docs/checks/lean_focused and lean_assembly: actual fresh invocation logs,
+     durations, source/object hashes and reused dependency-object hashes.
+
+Package transformations
+Four project source files differ from their resolved originals:
+- no-go module: removes an unused AlternatingLineIdentity import and its
+  unused identity statement, retaining the proof's real dependencies;
+- PolynomialAlternation: replaces the bounded-census negative seed proof
+  with a direct proper-order proof;
+- AlternatingLineParity: the same for the second negative seed;
+- MA4EulerMonoEpiTriangleConsumer01a0fee4: replaces a developer-specific
+  audit output path with audit/ResolvedModules.json (no theorem change).
+A historically verified 49-module split of BoundedLStarQ179 is used instead
+of its monolithic finite proof. Its source origin is recorded per module.
+The source token audit found no sorry, axiom, native_decide, implemented_by,
+extern or unsafe token outside comments/strings. Standard library axioms
+are reported by Lean, not inferred from this lexical check.
+
+Fresh versus historical
+Nine selected modules were freshly compiled in this preparation; their
+imports were reused and hashed. No full clean 573-module build is claimed.
+The historical full R3 report is retained in docs/checks/historical_r3.json
+and labelled historical. It is evidence about that earlier package and is
+not the new compilation log. See REPRODUCTION.txt for a clean source build.
+
+The Lake configuration was parsed successfully by `lake check-build` using
+read-only path overrides to the locally pinned external packages. Every
+external package HEAD matches its committed lock; this configuration check
+is separate from compiling all project sources.

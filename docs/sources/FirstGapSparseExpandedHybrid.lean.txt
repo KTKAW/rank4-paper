@@ -1,0 +1,135 @@
+import Rank4Round8.Coordinator.FiveSupportExpandedHybrid
+import Rank4Round8.Arithmetic.FirstGapSparseDirect
+
+/-!
+The sparse-modulo first-gap NMA certificate is tried after the checked direct
+MA and NMA guards. Its failure leaves the same complete list frontier.
+-/
+
+namespace Rank4Round8.Coordinator
+
+open Rank4Formula Rank4Round3 QuiverProofs Rank4Round6.Foundations
+open Rank4Round6.Coordinator Rank4Round8.Arithmetic
+
+def firstGapSparseExpandedShortcut : SixTuple → Option Bool :=
+  prefer fiveSupportExpandedShortcut firstGapSparseDirect
+
+theorem firstGapSparseExpandedShortcut_sound :
+    PartialSound firstGapSparseExpandedShortcut :=
+  prefer_sound _ _ fiveSupportExpandedShortcut_sound firstGapSparseDirect_spec
+
+def classifyFirstGapSparseExpandedEndpoint (q : SixTuple) : Bool :=
+  match firstGapSparseExpandedShortcut q with
+  | some b => b
+  | none => classifySymmetricGreedyEndpoint q
+
+theorem classifyFirstGapSparseExpandedEndpoint_eq (q : SixTuple) :
+    classifyFirstGapSparseExpandedEndpoint q =
+      classifyFiveSupportExpandedEndpoint q := by
+  cases hs : firstGapSparseExpandedShortcut q with
+  | none =>
+      have he : fiveSupportExpandedShortcut q = none := by
+        cases h : fiveSupportExpandedShortcut q with
+        | none => rfl
+        | some b =>
+            simp [firstGapSparseExpandedShortcut, prefer, h] at hs
+      simp [classifyFirstGapSparseExpandedEndpoint, hs,
+        classifyFiveSupportExpandedEndpoint, he]
+  | some b =>
+      have hsound := firstGapSparseExpandedShortcut_sound q b hs
+      cases b with
+      | false =>
+          have hnma : ¬ MutationAcyclic (ofTuple q) := by
+            intro hma
+            have hfalse : (false : Bool) = true := hsound.mpr hma
+            cases hfalse
+          have hbase := (classifyFiveSupportExpandedEndpoint_NMA_iff q).mpr hnma
+          simp [classifyFirstGapSparseExpandedEndpoint, hs, hbase]
+      | true =>
+          have hma : MutationAcyclic (ofTuple q) := hsound.mp rfl
+          have hbase := (classifyFiveSupportExpandedEndpoint_MA_iff q).mpr hma
+          simp [classifyFirstGapSparseExpandedEndpoint, hs, hbase]
+
+theorem classifyFirstGapSparseExpandedEndpoint_MA_iff (q : SixTuple) :
+    classifyFirstGapSparseExpandedEndpoint q = true ↔
+      MutationAcyclic (ofTuple q) := by
+  rw [classifyFirstGapSparseExpandedEndpoint_eq]
+  exact classifyFiveSupportExpandedEndpoint_MA_iff q
+
+theorem classifyFirstGapSparseExpandedEndpoint_NMA_iff (q : SixTuple) :
+    classifyFirstGapSparseExpandedEndpoint q = false ↔
+      ¬ MutationAcyclic (ofTuple q) := by
+  rw [classifyFirstGapSparseExpandedEndpoint_eq]
+  exact classifyFiveSupportExpandedEndpoint_NMA_iff q
+
+theorem classifyFirstGapSparseExpandedEndpoint_mutation (q : SixTuple)
+    (k : Fin 4) :
+    classifyFirstGapSparseExpandedEndpoint (mutatedUpper q k) =
+      classifyFirstGapSparseExpandedEndpoint q := by
+  rw [classifyFirstGapSparseExpandedEndpoint_eq,
+    classifyFirstGapSparseExpandedEndpoint_eq]
+  exact classifyFiveSupportExpandedEndpoint_mutation q k
+
+theorem classifyFirstGapSparseExpandedEndpoint_word (q : SixTuple)
+    (w : List (Fin 4)) :
+    classifyFirstGapSparseExpandedEndpoint (wordSix q w) =
+      classifyFirstGapSparseExpandedEndpoint q := by
+  rw [classifyFirstGapSparseExpandedEndpoint_eq,
+    classifyFirstGapSparseExpandedEndpoint_eq]
+  exact classifyFiveSupportExpandedEndpoint_word q w
+
+theorem classifyFirstGapSparseExpandedEndpoint_relabel (q : SixTuple)
+    (p : Relabeling 4) :
+    classifyFirstGapSparseExpandedEndpoint (relabelSix q p) =
+      classifyFirstGapSparseExpandedEndpoint q := by
+  rw [classifyFirstGapSparseExpandedEndpoint_eq,
+    classifyFirstGapSparseExpandedEndpoint_eq]
+  exact classifyFiveSupportExpandedEndpoint_relabel q p
+
+theorem classifyFirstGapSparseExpandedEndpoint_reverse (q : SixTuple) :
+    classifyFirstGapSparseExpandedEndpoint (reverseSix q) =
+      classifyFirstGapSparseExpandedEndpoint q := by
+  rw [classifyFirstGapSparseExpandedEndpoint_eq,
+    classifyFirstGapSparseExpandedEndpoint_eq]
+  exact classifyFiveSupportExpandedEndpoint_reverse q
+
+def firstGapSparseExpandedMutationEvals (q : SixTuple) : Nat :=
+  match firstGapSparseExpandedShortcut q with
+  | some _ => 0
+  | none => symmetricGreedyMutationEvals q
+
+theorem firstGapSparseExpandedMutationEvals_le (q : SixTuple) :
+    firstGapSparseExpandedMutationEvals q ≤ 4 + 4 * stateCount q := by
+  unfold firstGapSparseExpandedMutationEvals
+  split
+  · omega
+  · exact symmetricGreedyMutationEvals_le q
+
+theorem firstGapSparseExpandedShortcut_squareNine :
+    firstGapSparseExpandedShortcut firstGapSquareNineExample =
+      some false := by
+  have hfirst : fiveSupportExpandedShortcut firstGapSquareNineExample = none := by
+    decide +kernel
+  have hsecond : firstGapSparseDirect firstGapSquareNineExample =
+      some false := by
+    simp [firstGapSparseDirect, firstGapSquareNineExample_rejects]
+  simp [firstGapSparseExpandedShortcut, prefer, hfirst, hsecond]
+
+theorem firstGapSparseExpandedMutationEvals_squareNine :
+    firstGapSparseExpandedMutationEvals firstGapSquareNineExample = 0 := by
+  simp [firstGapSparseExpandedMutationEvals,
+    firstGapSparseExpandedShortcut_squareNine]
+
+#print axioms firstGapSparseExpandedShortcut
+#print axioms classifyFirstGapSparseExpandedEndpoint
+#print axioms classifyFirstGapSparseExpandedEndpoint_MA_iff
+#print axioms classifyFirstGapSparseExpandedEndpoint_NMA_iff
+#print axioms classifyFirstGapSparseExpandedEndpoint_mutation
+#print axioms classifyFirstGapSparseExpandedEndpoint_word
+#print axioms classifyFirstGapSparseExpandedEndpoint_relabel
+#print axioms classifyFirstGapSparseExpandedEndpoint_reverse
+#print axioms firstGapSparseExpandedMutationEvals_le
+#print axioms firstGapSparseExpandedShortcut_squareNine
+#print axioms firstGapSparseExpandedMutationEvals_squareNine
+
+end Rank4Round8.Coordinator

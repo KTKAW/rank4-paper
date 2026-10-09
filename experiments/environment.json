@@ -1,0 +1,20 @@
+{
+  "date_local": "2026-10-09",
+  "timezone": "Europe/London",
+  "utc_started": "2026-10-08T23:38:24.068904+00:00",
+  "python": "3.9.6 (default, Jan  9 2026, 11:03:41) \n[Clang 17.0.0 (clang-1700.6.4.2)]",
+  "platform": "macOS-26.3-arm64-arm-64bit",
+  "machine": "arm64",
+  "processor": "Apple M1",
+  "cpu_count": "8",
+  "memory_bytes": "17179869184",
+  "seed": 20261009,
+  "repetitions": 3,
+  "warmup": "one acyclic call before timings; no result cache",
+  "sampling": "24 iid uniform labelled six-tuples in [-3,3]; 12 iid acyclic nonnegative tuples in [0,2]^6, each mutated by six iid uniform vertices; all draws kept",
+  "limits": "named 100000 discovered states / 3s; generated 25000 states / 1s; cooperative timeout checked once per expansion",
+  "classifier_sha256": "51743a18f392c54f6ba3df878aef88677a588bd8e3b053d1cae8e2f8df2ba820",
+  "timing": "perf_counter inside analyze_tuple; includes bound calculation, shortcuts, search and independent MA witness replay; excludes import/JSON I/O",
+  "counter_scope": "mutation_evaluations counts candidate mutations in search/descent/line reduction; witness_check_mutations separately counts independent verification; fixed-word guards construct words without mutation; states_discovered/expanded and max_frontier count BFS only; finite-orbit certificate is verified at module import, outside timings",
+  "hardware_note": "Read with /usr/sbin/sysctl after benchmark, same host; initial sandbox prevented hardware reads."
+}

@@ -1,0 +1,188 @@
+MANUSCRIPT SOURCE MAP
+Snapshot inspected: 8 October 2026. Paths are relative to the project root.
+
+This map distinguishes published context, project theorems, immediate
+mathematical consequences stated in the draft, and open targets. Historical
+build records are not represented as fresh whole-project verification.
+
+1. PUBLISHED PREDECESSOR
+   Machine learning mutation-acyclicity of quivers.
+   DOI: 10.1016/j.jaca.2025.100040
+   Publisher: https://www.sciencedirect.com/science/article/pii/S2772827725000117
+   Accessible author version: https://arxiv.org/html/2411.04209v2
+   Metadata: https://arxiv.org/abs/2411.04209v2
+   Inspected the author version and metadata after direct publisher access
+   failed. The predecessor's Theorem 2.9 concerns weights at most two;
+   it must not be cited as establishing the project's depth-three theorem.
+
+2. MAIN POLYNOMIAL-SIGN NO-GO
+   Language:
+   research/formula/Rank4Formula/FormulaLanguage.lean
+   Formula, RepresentsMA, NoAlgebraicMAFormula.
+
+   Eventual constancy:
+   research/round2/obstruction/Rank4Formula/PolynomialTail.lean
+   Formula.eventually_constant_on_polynomialTuple;
+   noAlgebraicMAFormula_of_polynomial_recurrence.
+
+   Recurrence and first two residue classes:
+   research/round7/adversarial/PolynomialAlternation.lean
+   alternatingLine, negativeSeed_NMA, line_step_zero, line_step_one,
+   line_translate, line_four_mul_MA, line_four_mul_add_one_NMA.
+
+   Independent recurrence:
+   research/round7/structure/AlternatingLineIdentity.lean
+
+   Assembly:
+   research/round7/coordinator/NoPolynomialSignClassifier.lean
+   Rank4Round7.Coordinator.no_fixed_polynomial_sign_classifier;
+   Rank4Round7.Coordinator.every_formula_fails.
+
+   Reproduction from project root:
+   zsh research/round7/coordinator/check_no_go.sh
+   Log: research/round7/coordinator/final_build.log
+   Four fresh decisive modules against previously checked dependencies;
+   17 printed standard-only axiom closures in the recorded successful audit.
+   Final theorem closure: propext, Classical.choice, Quot.sound.
+
+   Reviews:
+   research/round7/formula/NO_POLYNOMIAL_SIGN_REVIEW.md
+   research/round7/adversarial/NO_GO_AUDIT.md
+   research/round7/structure/POLYNOMIAL_ALTERNATION_AUDIT.md
+
+   Connected-domain consequence: elementary observation in this draft that
+   every q(t) on the obstructing line is connected. No separate formal
+   declaration is claimed here.
+   No uniform depth: manuscript proof by fixed-depth piecewise polynomial
+   definability. No new Lean theorem was created for this corollary.
+   Real-coefficient extension: explicitly informal observation; the checked
+   theorem's syntax uses rational coefficients.
+
+3. SEED COMPLETENESS AND PARITY
+   research/archive/important proofs/lean/QuiverProofs/BoundedClassificationCompletion.lean
+   QuiverProofs.BoundedClassification.bounded_MA_iff_three_mutations.
+   This is the necessary bridge from the failed 85-word tests to NMA.
+
+   research/round8/arithmetic/AlternatingLineParity.lean
+   oddThreeSeed_NMA, line_two_MA, line_three_NMA,
+   alternatingLine_MA_iff_even, classifyAlternatingLine_iff.
+
+   research/round8/arithmetic/AlternatingIntegerLine.lean
+   alternatingLineInt_negative_acyclic, alternatingLineInt_MA_iff,
+   classifyLineTupleInt_spec.
+   Note: parity alone is NOT the rule on negative integers; all negative
+   parameters on this signed line are already acyclic.
+
+4. RESTRICTED POLYNOMIAL REGIONS
+   Disconnected domain:
+   research/construction/DisconnectedFormula.lean
+   disconnected_NMA_formula, disconnected_MA_formula.
+
+   Five-parameter threshold and unconditional formula:
+   research/construction/ChamberFormulaSyntax.lean
+   fiveParameterThresholdSyntax_correct_unconditional;
+   fiveParameterMASetSyntax_correct_unconditional.
+   Bridge:
+   research/archive/important proofs/lean/QuiverProofs/MAHasTotalProper4Completion.lean
+   MAHasTotalProper4Completion.maHasTotalProper4.
+   The older conditional declarations should not be confused with the
+   unconditional wrappers checked after the bridge was replayed.
+
+   Product cone:
+   research/round8/arithmetic/direct_ma_family/CyclicProductConeMA.lean
+   cyclicProductCone_word, cyclicProductCone_MA,
+   cyclicProductMAGuard_sound.
+
+   Quadratic chamber:
+   research/round8/arithmetic/direct_ma_family/terminal_ray/pair_ma_cone/PairMAQuadraticCone.lean
+   pairMAQuadratic_mutate_three, pairMAQuadraticRegion_MA,
+   pairMAQuadraticGuard_sound.
+
+5. SCALAR OBSTRUCTIONS AND COLLISIONS
+   research/obstruction/TriangleObstructionGap.lean
+   gapInput_NMA, gapInput_no_triangle_obstruction,
+   no_pfaffian_square_decoder, pfaffianSquareSix_invariant_word.
+
+   Independent 24-state negative certificate:
+   research/archive/important proofs/lean/QuiverProofs/FiniteOrbit.lean
+   transition_table, triangle_table, orbit_closed, nma_q617.
+
+   Connected strict scalar inequality:
+   research/round5/formula/ProperScalarGap.lean
+   research/round8/coordinator/direct_cycle/StrictArithmeticConnectedGap.lean
+   connectedGapGuard_NMA, connectedEqualityProbe_new_hit.
+
+   (11,16) endpoint exclusion:
+   research/round8/arithmetic/direct_ma_family/terminal_ray/eleven_sixteen/PairElevenSixteen.lean
+   (18,49) exclusion and total-wrapper context:
+   research/round8/RESULTS.md, sections on endpointEighteenFortyNineRejects_NMA
+   and noEndpoint_eighteen_fortyNine.
+
+   Proper-order literature:
+   S. Fomin and S. Neville, Cyclically ordered quivers, arXiv:2406.03604.
+   S. Neville, Mutation-acyclic quivers are totally proper, arXiv:2409.17832.
+   Both arXiv records were inspected for this draft. Preprint citations are
+   used rather than assuming unverified journal bibliographic details.
+
+6. BOUNDED PATHS AND TOTAL HYBRID
+   Existing local manuscript: Quiver_Paper.pdf
+   Extract: research/Quiver_Paper.txt
+   Existing supplement: short_paper_supplement.pdf
+   Extract: research/short_paper_supplement.txt
+   The manuscript gives the full excursion argument; the sequel draft gives
+   a dependency statement and proves the finite-state consequence.
+
+   Budget:
+   research/archive/important proofs/lean/Rank4CoordinatorR2/EndpointBudget.lean
+   entryBudget, scalarBudget, endpointHeightBudget.
+   All six cyclic orders contribute to the budget, whether proper or not.
+
+   Completion:
+   research/archive/important proofs/lean/Rank4CoordinatorR2/ClassificationCompletion.lean
+   Namespace Rank4Classification (the directory name differs):
+   heightCoverage, effectiveWordBound, classify4_ma_iff, classify4_nma_iff.
+
+   Latest recorded total wrapper:
+   research/round8/coordinator/FirstGapSparseExpandedHybrid.lean
+   classifyFirstGapSparseExpandedEndpoint_MA_iff;
+   classifyFirstGapSparseExpandedEndpoint_NMA_iff.
+   Reproduction: zsh research/round8/coordinator/check_first_gap_sparse_expanded.sh
+   This command assumes its documented, previously checked dependencies.
+   It does not by itself freshly reconstruct the entire archive.
+
+   Frontier implementation:
+   research/round8/reduction/ChoiceFreeListDedup.lean
+   research/round8/coordinator/ChoiceFreeEndpointHybrid.lean
+   research/round8/adversarial/FINAL_TWO_COMMAND_AUDIT.md
+   The audit explicitly distinguishes closure counts, module counts, fresh
+   objects and reused dependency links, and checks diagnostics beyond exit status.
+
+7. LATEST STRICT PARTIAL SELECTOR AND OPEN TARGET
+   research/round8/coordinator/direct_cycle/StrictArithmeticConnectedGap.lean
+   classifyStrictConnectedGap_true_sound;
+   classifyStrictConnectedGap_false_sound.
+   Status:
+   research/round8/coordinator/direct_cycle/STRICT_ARITHMETIC_CONNECTED_GAP_STATUS.md
+   research/round8/coordinator/direct_cycle/DIRECT_TARGET_INTEGRATION_STATUS.md
+   research/round8/direct_target/DIRECTNESS_CONTRACT.md
+   Latest recorded integration: 176 standard-only printed closures,
+   66 validated local manifests, checked reused dependencies.
+   Reproduction:
+   zsh research/round8/coordinator/direct_cycle/check_direct_target_integration.sh
+
+   This selector is Option Bool, not the requested total arithmetic-only
+   classifyDirect. It still misses certified MA (-2,-1,1,-1,2,-1).
+   The hybrid's totality does not establish strict arithmetic coverage.
+
+8. ARCHIVE PROVENANCE
+   research/round3/build_audit/build-full-r3-split-q179-v1/report.json
+   Records 488/488 local closure completion with staged Q179 substitution,
+   486 verbatim archived sources, a bridge-adjusted consumer, checked chunks,
+   and reused checkpoint modules. Do not call it a fresh verbatim build of
+   every original source. Later checks build against these checked objects.
+
+9. DRAFT-SESSION CHECKS
+   See verification.txt and example_checks.json. The Python checks cover
+   exact printed examples and finite samples of universal identities; only
+   the cited proofs justify unbounded quantification. No new empirical ML
+   accuracy or running-time measurements were conducted.

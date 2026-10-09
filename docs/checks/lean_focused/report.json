@@ -1,0 +1,922 @@
+{
+  "kind": "six-module fresh replay with reused project dependency objects",
+  "lean_version": "Lean (version 4.24.0, arm64-apple-darwin23.6.0, commit 797c613eb9b6d4ec95db23e3e00af9ac6657f24b, Release)",
+  "flags": [
+    "--trust=0",
+    "-j1"
+  ],
+  "results": [
+    {
+      "module": "Rank4Formula.PolynomialTail",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 15.2493195,
+      "source_sha256": "8b24882f4d8a7d399015973df36ece37e6609ca6e4345bc9715fc6380690a5a9",
+      "object_sha256": "bd66b3dc38e1da9524f406a414a3d32484f432330d91c05b586a719a8f7c75ea"
+    },
+    {
+      "module": "Rank7Adversarial.PolynomialAlternation",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 14.352503708,
+      "source_sha256": "842cf0556b89464beae7d330bfcdca592e1ad65d7053ad76f471ae76133cce3f",
+      "object_sha256": "0afdc94a10283ddb6ad3e673df2aae940cd18a6b79d798823ea8eca6ee0cf596"
+    },
+    {
+      "module": "Rank4Round7.Coordinator.NoPolynomialSignClassifier",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 5.0547912079999975,
+      "source_sha256": "b741c3401e0d3f384c41a1a990ddbf31d137e93d86ef6bc424144f4d91c48b0f",
+      "object_sha256": "6b9da9763aaa9b10bac283ebf2ab63eedf9f724a1cd87725be614823308907e6"
+    },
+    {
+      "module": "Rank4Round8.Arithmetic.AlternatingLineParity",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 7.9847605,
+      "source_sha256": "5391442fe167f6f61e0eb0358283e08ba25518fdc597c2e3eb1f158d744fcdfd",
+      "object_sha256": "94a4623392b54dae8a73697e6fe7f0cb372a4acfdacf37a1d8052e4763126e84"
+    },
+    {
+      "module": "Rank4Round8.Arithmetic.AlternatingLineRecognizer",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 3.985598416000002,
+      "source_sha256": "aef6e41b9dfb45d6c3b073cca793db6c91ea0bbd537283fcd5130285abfd88c6",
+      "object_sha256": "97e21dc4fee9d2761aa7f2c057511e28c4449da9c4f2fd6db9797447242b4492"
+    },
+    {
+      "module": "Rank4Round8.Arithmetic.AlternatingIntegerLine",
+      "exit_code": 0,
+      "ok": true,
+      "seconds": 6.18816975,
+      "source_sha256": "412ca40c719ee3530f88158a59deb9fdae3cd83dd7a94a64378d14c1365a3a2f",
+      "object_sha256": "98c570b67a4f709676a0fb96125c1abbc78e37891ae8bde4f558b6b4410d5834"
+    }
+  ],
+  "all_requested_passed": true,
+  "reused_dependency_roots": [
+    "/Users/kymani/Documents/Rank 4/research/round8/coordinator/verified_build",
+    "/Users/kymani/Documents/Rank 4/research/round8/arithmetic/build",
+    "/Users/kymani/Documents/Rank 4/research/round7/coordinator/final_build",
+    "/Users/kymani/Documents/Rank 4/research/round6/coordinator/build",
+    "/Users/kymani/Documents/Rank 4/research/round2/obstruction/build",
+    "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-split-q179-v1/lib/lean"
+  ],
+  "external_roots": [
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/kymani/Documents/Rank 4/research/archive/important proofs/lean/.lake/packages/Qq/.lake/build/lib/lean"
+  ],
+  "selected_closure_size": 216,
+  "selected_closure_contains_heightCoverage_module": false,
+  "selected_closure_contains_bounded_classification": false,
+  "reused_objects": {
+    "MA4Arrow20261003.AbsentEvaluationBiproduct": {
+      "sha256": "5887aa868f75e9a5235bdc21c324481a37e8019e0f1657b1a34478358a489bf2",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Arrow20261003/AbsentEvaluationBiproduct.olean"
+    },
+    "MA4Arrow20261003.AbsentEvaluationExt": {
+      "sha256": "a5d6e822ab5b70762fa8e6f2356a0d89e3876c9731913bab77b1dedd8af363eb",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Arrow20261003/AbsentEvaluationExt.olean"
+    },
+    "MA4Arrow20261003.AbsentEvaluationFaithful": {
+      "sha256": "33322f656ade431f2b87621d2cc9bd21554c76fec6ad11ebcc45fba863fd32c6",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Arrow20261003/AbsentEvaluationFaithful.olean"
+    },
+    "MA4Coordinator20261003.BiproductHomFaithfulness": {
+      "sha256": "e34e53cbedafd6241c165d11149bc64bc536c99cf836c9f200789c1f9298e86d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Coordinator20261003/BiproductHomFaithfulness.olean"
+    },
+    "MA4Coordinator20261003.EvaluationCokernel": {
+      "sha256": "1192d6b92c53a480d612f97c37979e72bdbdceeeba2a0bbab401e315a3932d48",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Coordinator20261003/EvaluationCokernel.olean"
+    },
+    "MA4Coordinator20261003.EvaluationKernel": {
+      "sha256": "618f99f07a125473580e576256db4146d24ad8b15cd711d95c65e957873ea968",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Coordinator20261003/EvaluationKernel.olean"
+    },
+    "MA4Coordinator20261003.ExactVertexDimensions": {
+      "sha256": "c4fda5750f5e24e971ab9dc720168186dfcc7a0224610b53b27b93425c96f0f3",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Coordinator20261003/ExactVertexDimensions.olean"
+    },
+    "MA4Coordinator20261003.PairPurity": {
+      "sha256": "01b4f1fd0af3e397eb733c211b5477d5cd14d09fee7d013b5cfeb4f1c0b4f122",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Coordinator20261003/PairPurity.olean"
+    },
+    "MA4Coordinator20261003.ScalarEndomorphisms": {
+      "sha256": "c9d0e28a6fdf30b05608af9b8faa684a8849296b3470177f4642762f14d9f073",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4Coordinator20261003/ScalarEndomorphisms.olean"
+    },
+    "MA4EulerExternalOrthogonality01a0fee4": {
+      "sha256": "a9f7f22da6f100671e3159b915d6a9b22c8b8ad9997d98ea2e6f59b4c7fbf0a0",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4EulerExternalOrthogonality01a0fee4.olean"
+    },
+    "MA4EulerMonoEpi01a0fee4": {
+      "sha256": "842a8273e48099bf96267775f1ed8d4132756de9febbf8c2bb56a6fd36d2b1ce",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4EulerMonoEpi01a0fee4.olean"
+    },
+    "MA4EulerMonoEpiTriangleConsumer01a0fee4": {
+      "sha256": "30f7d4082dbf5a78ec253868b21641cffa408c9196dffcb199f94ccc50e17423",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4EulerMonoEpiTriangleConsumer01a0fee4.olean"
+    },
+    "MA4EulerRealizedNo301a0fee4": {
+      "sha256": "f2b2350e4d666461a69d519de4fe62ec64fcd20baa362bacdf7ea739441f4f35",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4EulerRealizedNo301a0fee4.olean"
+    },
+    "MA4RestartArrow20261003.ActualFrameChronology": {
+      "sha256": "7d10c6bb8034aa97b69e5d25ecbdeb7dbacab3a9f215d42b3e9e9d8fa1e59c3d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/ActualFrameChronology.olean"
+    },
+    "MA4RestartArrow20261003.ActualLeftSweep": {
+      "sha256": "900bf4c960e444d62531cbc8e5df2bd0e84cd308eac03a4bb31dcf48757d7cb8",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/ActualLeftSweep.olean"
+    },
+    "MA4RestartArrow20261003.ActualRightSweep": {
+      "sha256": "41f132edefd228be58184f6f93c75b101ddbcb22987eef568d2ba22053e872d2",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/ActualRightSweep.olean"
+    },
+    "MA4RestartArrow20261003.AdjacentExceptionalFrame": {
+      "sha256": "0a5276a1fd01d9d73235ff3464022f22ca75917624ca9d936cedd43671ac1d0d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/AdjacentExceptionalFrame.olean"
+    },
+    "MA4RestartArrow20261003.AdjacentExceptionalRightFrame": {
+      "sha256": "0770ac90fe600942fbc81634f5b5fc3297c5ffa960ae6c81fb8af5961757d19e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/AdjacentExceptionalRightFrame.olean"
+    },
+    "MA4RestartArrow20261003.AdjacentLeftMutation": {
+      "sha256": "74432f0f37f2d92c8e55fca4a80ee7f6d49e07fb70085ba60a83919c8bad9133",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/AdjacentLeftMutation.olean"
+    },
+    "MA4RestartArrow20261003.AdjacentRightMutation": {
+      "sha256": "cfacf6aa999c9c6b953b0de0395b238deb76d14c92b0cd65cbdd8694d8d6f38c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/AdjacentRightMutation.olean"
+    },
+    "MA4RestartArrow20261003.ChronologicalColoredArrowStep": {
+      "sha256": "da80264b62b7c4153ebf930b3bd0b8f615bf676f7326c178cae18a459a6541f7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/ChronologicalColoredArrowStep.olean"
+    },
+    "MA4RestartArrow20261003.CoevaluationCokernel": {
+      "sha256": "f22ae0bd01dea74ad0a61ab6c0589c9c4839a909939437d9c375a4e14eb2625e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/CoevaluationCokernel.olean"
+    },
+    "MA4RestartArrow20261003.CoevaluationExternal": {
+      "sha256": "bab22639ad5cbbe55d539faa5773f62bf2cb6a379ad55d3450e64687c536ae9b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/CoevaluationExternal.olean"
+    },
+    "MA4RestartArrow20261003.CoevaluationKernel": {
+      "sha256": "73f98a055b1f1119fc9e003883233a8466b7a48c605c6da3b8bba8a945267c28",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/CoevaluationKernel.olean"
+    },
+    "MA4RestartArrow20261003.CoevaluationMap": {
+      "sha256": "ead9c76d38515bdf18ca963342124a7df3f64b639510936df9d97bc8603de411",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/CoevaluationMap.olean"
+    },
+    "MA4RestartArrow20261003.ColoredHomTransport": {
+      "sha256": "db5dbcf30726c53b81c37b41162fe75cb9ed873335e24aa0ed5c25b868b1e042",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/ColoredHomTransport.olean"
+    },
+    "MA4RestartArrow20261003.CurrentColorHom": {
+      "sha256": "af281d28870ee12f39813af004f080e0963ae14689530989dddc07a61db47fe7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/CurrentColorHom.olean"
+    },
+    "MA4RestartArrow20261003.CurrentColoredActualFrame": {
+      "sha256": "9199857bd865f405e98f075c5dc748c8de919c040a078e9fcaf4e880586d63c6",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/CurrentColoredActualFrame.olean"
+    },
+    "MA4RestartArrow20261003.FrameReordering": {
+      "sha256": "9607f0961a0eb114fc27b68b58278e329dc909a00bc818d921929ab04966a796",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/FrameReordering.olean"
+    },
+    "MA4RestartArrow20261003.GreenColoredFamily": {
+      "sha256": "d08129e82543d18a7bc10b467cdd81b5e84a91c4fd7127e233ea32fc2967e3fc",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/GreenColoredFamily.olean"
+    },
+    "MA4RestartArrow20261003.GreenFamilyConstruction": {
+      "sha256": "bb0f446c76d2ffb0c9b27c68a2984087725e27055f9dfcb4c92d3e6c1e1752e1",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/GreenFamilyConstruction.olean"
+    },
+    "MA4RestartArrow20261003.GreenFamilySameColorHom": {
+      "sha256": "6e5471923f0779649c391d45367d201c4154dd90a51764226307617debc48d68",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/GreenFamilySameColorHom.olean"
+    },
+    "MA4RestartArrow20261003.GreenTraceInversions": {
+      "sha256": "117259798cf8c44aea2879b4cd676055959ff34d1cb1b406ac1ef98f548919e7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/GreenTraceInversions.olean"
+    },
+    "MA4RestartArrow20261003.LeftColorTraceHom": {
+      "sha256": "eebe07c80c6ec26015128206bc90ff1b0add9d11051371840d78811cf716664d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftColorTraceHom.olean"
+    },
+    "MA4RestartArrow20261003.LeftFamilyFrame": {
+      "sha256": "bc2f3d4951fba4c9d4eb983d81d73bea8d77526d202dd2677f7902b73177a5e2",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftFamilyFrame.olean"
+    },
+    "MA4RestartArrow20261003.LeftHomMutation": {
+      "sha256": "6025547cc5fe7209b2d95dfa5bc05c7ed77aa032884aa21c1df6075dd0a8df68",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftHomMutation.olean"
+    },
+    "MA4RestartArrow20261003.LeftHomMutationDimensions": {
+      "sha256": "76bbb66eaf1d4789b0832c80e16e8a8ce6168b62f54f245b9db8dfaff43d649c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftHomMutationDimensions.olean"
+    },
+    "MA4RestartArrow20261003.LeftHomMutationOldVertices": {
+      "sha256": "2e3778c5e482aaf349da4df529d0c30bf3909048cca99d92980566cead60fae9",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftHomMutationOldVertices.olean"
+    },
+    "MA4RestartArrow20261003.LeftTraceBoundaryHom": {
+      "sha256": "b3676d89625dca969bc974b9caf05009c8567b6758d712f2a385fc1f12b01aa1",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftTraceBoundaryHom.olean"
+    },
+    "MA4RestartArrow20261003.LeftTracedReplacement": {
+      "sha256": "95772a5980674323b6e2212dd64729d519b28f95a5f5b191a4d27d23085c3292",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/LeftTracedReplacement.olean"
+    },
+    "MA4RestartArrow20261003.RedColoredFamily": {
+      "sha256": "b114e3e8b3585a83664823e9ce9dd0f6198cc117763ad7beefebe12aa9cddd18",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RedColoredFamily.olean"
+    },
+    "MA4RestartArrow20261003.RedFamilyConstruction": {
+      "sha256": "d75a37451968edafb754508394bc413b763350fc4c8e5648d862b05fd44ee98b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RedFamilyConstruction.olean"
+    },
+    "MA4RestartArrow20261003.RedFamilySameColorHom": {
+      "sha256": "f5ff9e16620fb548a1653d36a9b92e1e96d3d06c2e5c68084c227c8aaa2d6175",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RedFamilySameColorHom.olean"
+    },
+    "MA4RestartArrow20261003.RedTraceInversions": {
+      "sha256": "a2a986a80dda0a46cd442e81ccb6ddee6a526096bec9f0244f83e34904bd286b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RedTraceInversions.olean"
+    },
+    "MA4RestartArrow20261003.RightFamilyFrame": {
+      "sha256": "db1ac07365863ee8cc570bc4dae35727164261b75b2c4cb9d4f20027af2fb78b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RightFamilyFrame.olean"
+    },
+    "MA4RestartArrow20261003.RightTraceBoundaryHom": {
+      "sha256": "92a55f770be43eb65d413ad3e5a22d7bd72d4a551e4f38aba0c6db07aec5f860",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RightTraceBoundaryHom.olean"
+    },
+    "MA4RestartArrow20261003.RightTracedReplacement": {
+      "sha256": "d984839c6dfcd18a76cf026afd56f562ed481dea1402c2afdbeea16479d25174",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/RightTracedReplacement.olean"
+    },
+    "MA4RestartArrow20261003.ScalarEndDimension": {
+      "sha256": "fed660ff75c9782c543f675324918a6b46970565fd26ca9309dc7fe01c03e20e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/ScalarEndDimension.olean"
+    },
+    "MA4RestartArrow20261003.SignedAdjacentLeftExt": {
+      "sha256": "e1afe7ed8c97f0dab464e2f8026332391d5bc9745c48a41871da900f786a2708",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/SignedAdjacentLeftExt.olean"
+    },
+    "MA4RestartArrow20261003.SignedAdjacentLeftHom": {
+      "sha256": "cd08089f4c0044e9e3cfbdcea96bdc681e1357d2118e86035057d4717eb01bed",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/SignedAdjacentLeftHom.olean"
+    },
+    "MA4RestartArrow20261003.SignedAdjacentRightExt": {
+      "sha256": "f97db8030c1f4f92293160160b853ea176bc149d6ff895efd300be8a37d605ac",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/SignedAdjacentRightExt.olean"
+    },
+    "MA4RestartArrow20261003.SignedAdjacentRightHom": {
+      "sha256": "85af9a46ba97e4d5f3562a0354c885c1cbe0c354b5412beb05f9d257d83da99a",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/SignedAdjacentRightHom.olean"
+    },
+    "MA4RestartArrow20261003.SignedLeftShear": {
+      "sha256": "d6dd5a3370273af8f791c41886f47a434ae6d01c217a4faebf7c4bc481cff38b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/SignedLeftShear.olean"
+    },
+    "MA4RestartArrow20261003.TraceColorNormalization": {
+      "sha256": "f25b9a1b18dc082ee5ab0cc7ec23fdd486cf552701522b5c15b6301abc3bb114",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/TraceColorNormalization.olean"
+    },
+    "MA4RestartArrow20261003.VertexCopies": {
+      "sha256": "7d43f6d70a599389857dac370220473eb62d2a8caf6cf2c1c56393dbf5e330cc",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartArrow20261003/VertexCopies.olean"
+    },
+    "MA4RestartCoordinator20261003.ActualColoredArrowProjection": {
+      "sha256": "b9bd3b4d006c6a232582fca010a5bc98b29db6dcb7fa427b187f3eb3ff8b6e29",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/ActualColoredArrowProjection.olean"
+    },
+    "MA4RestartCoordinator20261003.ChronologicalIntervalSelector": {
+      "sha256": "4d2a344c6f4fd790a434e4b06e0faafa744937238149da425da83ce0eab8f3dc",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/ChronologicalIntervalSelector.olean"
+    },
+    "MA4RestartCoordinator20261003.ColoredArrowProjection": {
+      "sha256": "4eb5e20dfc6f8b820de7611b8685d2249be86a311608d752111c864ead950eee",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/ColoredArrowProjection.olean"
+    },
+    "MA4RestartCoordinator20261003.EvaluationColorHom": {
+      "sha256": "4717eb14d5bb714a3d38c35c014da4b50aea76009832c53ae6d94525a4dc0afd",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/EvaluationColorHom.olean"
+    },
+    "MA4RestartCoordinator20261003.FreePathProjectives": {
+      "sha256": "57868f1760b52608525030e454886fb352ee72bcfb56dbb6cac5d3fed43322f3",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/FreePathProjectives.olean"
+    },
+    "MA4RestartCoordinator20261003.InitialOrderedFrame": {
+      "sha256": "cf8f315e603390a78fc4b4186f0ab5f747b4b54b6192c66f1e4c6a9d2d0bfe03",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/InitialOrderedFrame.olean"
+    },
+    "MA4RestartCoordinator20261003.JointHistoryIntegration": {
+      "sha256": "8aaeb4665df51f7aa46871ae5f9c4267e38a64fb64a6235218536892ffa0accc",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/JointHistoryIntegration.olean"
+    },
+    "MA4RestartCoordinator20261003.MixedCoevaluationOrthogonality": {
+      "sha256": "db98c7d5702d9abe5271a8d6011a56b7dfde3f91d627ef266042dbef1acb893f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/MixedCoevaluationOrthogonality.olean"
+    },
+    "MA4RestartCoordinator20261003.MixedEvaluationOrthogonality": {
+      "sha256": "d83ee3c4e5f8b837d5ff68a6d5d171e3e4e4d540944c7ec8a288007ecbba2572",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/MixedEvaluationOrthogonality.olean"
+    },
+    "MA4RestartCoordinator20261003.PathResolution": {
+      "sha256": "5dfefb8bafd2327833e68a3d9254ac3007f77537d50323fbaa37b65d6da4174e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/PathResolution.olean"
+    },
+    "MA4RestartCoordinator20261003.RightColorTraceHom": {
+      "sha256": "b67ea4ac8bc09dac58a9521ec3063073f45c0d881986754e3f3b17015c38e0a7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/RightColorTraceHom.olean"
+    },
+    "MA4RestartCoordinator20261003.RightColorTraceOrthogonality": {
+      "sha256": "2e9c415d4f9ffb3906f2dd6029d2b61dc74c27830e6643a5ee6c3ca9ec491766",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/RightColorTraceOrthogonality.olean"
+    },
+    "MA4RestartCoordinator20261003.RightHomMutation": {
+      "sha256": "4e3a8e7776d209cc7f0788864988ffe63c4ff6c803dbc9a17f42cc0fe1ebe44b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/RightHomMutation.olean"
+    },
+    "MA4RestartCoordinator20261003.SortedNextArrowProjection": {
+      "sha256": "759e1d119addfcc21277a302e6dd1f389cc7692a8b444df474bb7635e423393f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/SortedNextArrowProjection.olean"
+    },
+    "MA4RestartCoordinator20261003.StableColoredFrameSort": {
+      "sha256": "9fc97f81da1089025c215e4903a5054c2d8758cc900a95ae1e30301377304471",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/StableColoredFrameSort.olean"
+    },
+    "MA4RestartCoordinator20261003.VertexFiniteness": {
+      "sha256": "6925cdb5edab8edd2bf48f851985f7879781b0a8973070c2287b34c91248e5ce",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/VertexFiniteness.olean"
+    },
+    "MA4RestartCoordinator20261003.VertexRestriction": {
+      "sha256": "e19a930de5da1fe2b7e57c6fe95329a22372fb23e3391d999fbb8d34cde9a234",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/VertexRestriction.olean"
+    },
+    "MA4RestartCoordinator20261003.WeightedQuiverModel": {
+      "sha256": "63620bc3ba01aa50df8b101dad0240a2b61a5792953eaaedd6260eb63f9af35e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartCoordinator20261003/WeightedQuiverModel.olean"
+    },
+    "MA4RestartEuler20261003.ActualFrameNoThreeCycle": {
+      "sha256": "f254f7f8c760b82b033f88dd6602c37d7c5666a9796fb66f5f9ffd2905eedd3d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/ActualFrameNoThreeCycle.olean"
+    },
+    "MA4RestartEuler20261003.ActualGreenChronologicalNoThreeCycle": {
+      "sha256": "4f26a875f69f01ae8aec48f8e99bb395e56c60225db8277b99636d0c3ca0fc14",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/ActualGreenChronologicalNoThreeCycle.olean"
+    },
+    "MA4RestartEuler20261003.ActualRedChronologicalNoThreeCycle": {
+      "sha256": "b85fa95ffedaf1ec27ff287328903797f25177c6d09588a303eb548e9443fa71",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/ActualRedChronologicalNoThreeCycle.olean"
+    },
+    "MA4RestartEuler20261003.ActualSignedNormalization": {
+      "sha256": "8a1e74aec9d8915e7b77d4298c993d91c1354f8c1c7bfb890b6adb492bc86982",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/ActualSignedNormalization.olean"
+    },
+    "MA4RestartEuler20261003.HereditaryBridge": {
+      "sha256": "550da7a7555d237e3caff400f3aeb28e0936336721c67ba17899d5f584df9b6c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/HereditaryBridge.olean"
+    },
+    "MA4RestartEuler20261003.InitialSimples": {
+      "sha256": "8705d110de687d5b616e5c5d9b7422f287e842798900c71096ce2a9e49fd8b88",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/InitialSimples.olean"
+    },
+    "MA4RestartEuler20261003.MatrixEuler": {
+      "sha256": "c4f85e4d793eb3981e58ec1de330cd88901391bd21610bd3d53c812c2bc6d0cd",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/MatrixEuler.olean"
+    },
+    "MA4RestartEuler20261003.OldUnselectedPivotBoundary": {
+      "sha256": "54f3b22c376cec2ff8ce4d447f269c396d19b43b539d64881d5db96d626d556e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/OldUnselectedPivotBoundary.olean"
+    },
+    "MA4RestartEuler20261003.ProjectiveEuler": {
+      "sha256": "021d57c66abc260efd6d2bed140c99887687556d859a05a9c12decbea07bb882",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/ProjectiveEuler.olean"
+    },
+    "MA4RestartEuler20261003.ResolvedModelEuler": {
+      "sha256": "27e3e50639d0203fb63f2da5461469e9a43e3ccf0ab8fd3fd5a518dca746ee69",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/ResolvedModelEuler.olean"
+    },
+    "MA4RestartEuler20261003.UniversalBasis": {
+      "sha256": "03c9339d367b3fca4bb8f6ce4c902d26661a8cdcab96534d2725a46403683d01",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/UniversalBasis.olean"
+    },
+    "MA4RestartEuler20261003.UniversalClosure": {
+      "sha256": "9a68cd29fc3c3ef361d2a4384f0c932788e26ea369d6b54f73596453097cdf13",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/UniversalClosure.olean"
+    },
+    "MA4RestartEuler20261003.UniversalExtension": {
+      "sha256": "060de30c1f72c0cd7062614d6bc64c0aef60f91153274dc31d2190f24d80d363",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/UniversalExtension.olean"
+    },
+    "MA4RestartEuler20261003.UniversalLeft": {
+      "sha256": "7c77ff76f22254c7d76a6b320ba6f33e2f15adcc94e23a173b8ff08a44751632",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/MA4RestartEuler20261003/UniversalLeft.olean"
+    },
+    "QuiverProofs.AcyclicTargets": {
+      "sha256": "ef1336a8dedecf9505510ad37888cce2df78b58270e91d73a5c18f5673f3f2ad",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/AcyclicTargets.olean"
+    },
+    "QuiverProofs.Algebra": {
+      "sha256": "89c3c7a4b3fcf1315e0dfdc50af0c730727dc2e72d819574799e6c1c667f237f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/Algebra.olean"
+    },
+    "QuiverProofs.CensusConnectivity": {
+      "sha256": "31000075ea98d2fd979ada2d9bd2a7277b8778d7a39b87e2809d3ed68a24c64e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/CensusConnectivity.olean"
+    },
+    "QuiverProofs.CensusCore": {
+      "sha256": "b7cc8f0385c9f078b66150fb9c839d8af4022bc01b811d338ad0afaa2a28b9a2",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/CensusCore.olean"
+    },
+    "QuiverProofs.CensusData": {
+      "sha256": "105cc7c6490834a94081c04023f5f8ac5753530c014cf3515b0199791afaffc6",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/CensusData.olean"
+    },
+    "QuiverProofs.CensusMA": {
+      "sha256": "2777140f04465f3a064c0b51d9f09d28ed4a82fb74891aad05ba4cfafb8d63b0",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/CensusMA.olean"
+    },
+    "QuiverProofs.ClassSeparation": {
+      "sha256": "9b49eafa667f521429946d023656e56263905d490a0bdbf96d2e9156c5a25080",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ClassSeparation.olean"
+    },
+    "QuiverProofs.Cone": {
+      "sha256": "a767032bc3013068e6e47ebe94893443f76b53fed60286807da04eb2af8aed91",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-resumed-v2/lib/lean/QuiverProofs/Cone.olean"
+    },
+    "QuiverProofs.Cosquare": {
+      "sha256": "5154c0a2756e952fa30f9aebfdf75f7e2e383f9e3b797562ba1b73e5ccc7e5e6",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/Cosquare.olean"
+    },
+    "QuiverProofs.FiniteLogic": {
+      "sha256": "88a3048416ae4ecb5eb5253bbd5e28be40fa8a42b0b267c739c191f3a136d1d4",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-resumed-v2/lib/lean/QuiverProofs/FiniteLogic.olean"
+    },
+    "QuiverProofs.ForkCertificates": {
+      "sha256": "0183575bf98d0f7ce102a1c3d834ae84eacbd91d8e48bfd10b4bb5f7c2a66f92",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ForkCertificates.olean"
+    },
+    "QuiverProofs.ForkDefinition": {
+      "sha256": "131ff3d583ccb8742982ade0e68ae0a6e09933b4213be3219a3072a5f2df79e7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-resumed-v2/lib/lean/QuiverProofs/ForkDefinition.olean"
+    },
+    "QuiverProofs.ForkPruning": {
+      "sha256": "3f3b52a86d6348f0dd3db4f1f9350c61ed2310702b757e879ea95741ef4b4ea8",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-resumed-v2/lib/lean/QuiverProofs/ForkPruning.olean"
+    },
+    "QuiverProofs.ForkPruningDecidable": {
+      "sha256": "70bab47300ce791be937b08fef3212618cf146536fc75c108a86a069c08c0240",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-resumed-v2/lib/lean/QuiverProofs/ForkPruningDecidable.olean"
+    },
+    "QuiverProofs.Forks": {
+      "sha256": "b7070ea42e4d79c91d4c30750262a04e450f7caf5070360825d384f67f5f9cb0",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/Forks.olean"
+    },
+    "QuiverProofs.Greedy": {
+      "sha256": "8630ec69b6c5c6ac29425480767b6e36b6201809acc0ca59645da9623401791a",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round3/build_audit/build-full-r3-resumed-v2/lib/lean/QuiverProofs/Greedy.olean"
+    },
+    "QuiverProofs.Invariants": {
+      "sha256": "eccd685f9cf31e8a81a89d3dd653d2d7caf043df0c8a8ea3697849781c1cba8d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/Invariants.olean"
+    },
+    "QuiverProofs.MACompletionCategoricalTriangles": {
+      "sha256": "46d7bdd682beba7bc95442b3a184603f850c1834bb6ec6f4e7b4b0a99505f3e1",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MACompletionCategoricalTriangles.olean"
+    },
+    "QuiverProofs.MAExistenceAlternative": {
+      "sha256": "0faa2ea47c1e590c615f676a57031cd56c8013d1468ac955fd390c4f0a0576a8",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceAlternative.olean"
+    },
+    "QuiverProofs.MAExistenceAuxiliaryOrders": {
+      "sha256": "8600b9fc5b68e83cb13415ab198a7028eef768d8b9973a0353d144253e5e452e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceAuxiliaryOrders.olean"
+    },
+    "QuiverProofs.MAExistenceCoefficients": {
+      "sha256": "54b8dc77a06794cc87bc8b9e1148eaa0dbf27503f8132abbd4ae52c2fb05e5df",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceCoefficients.olean"
+    },
+    "QuiverProofs.MAExistenceCompanionTriangles": {
+      "sha256": "a691ea84f5dd0ef7f053c7c79a7342aaf424553acb86e2cc48a69a38234cad45",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceCompanionTriangles.olean"
+    },
+    "QuiverProofs.MAExistenceCompanions": {
+      "sha256": "90f49ad8d54dd1b8bb21ca3e362b427c30f0ab73b8e23ae836f17769d8376dca",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceCompanions.olean"
+    },
+    "QuiverProofs.MAExistenceCoordinator": {
+      "sha256": "19dacc99d32e05c7b4e063f7f618376bdb96205fbb193a9633e9efc1b1894f60",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceCoordinator.olean"
+    },
+    "QuiverProofs.MAExistenceInitialization": {
+      "sha256": "475f7df7bcba8d41f083209c63cdb7f2b8f544d60a5b9b4d6c1c80161f63eec9",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceInitialization.olean"
+    },
+    "QuiverProofs.MAExistenceLiterature": {
+      "sha256": "660d1ae400d377201f84326e1b67ad4990c95811b9e5e928859ef9e77bf2a382",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceLiterature.olean"
+    },
+    "QuiverProofs.MAExistenceRankTwoRelations": {
+      "sha256": "d77317391b0df60cb80029680b32b9af26e1305bd7f0b714188b8e7f6eb8de40",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceRankTwoRelations.olean"
+    },
+    "QuiverProofs.MAExistenceSupportChronology": {
+      "sha256": "9bd539a4bca62c0f012fa715835d37638ce56e860c38b338d3af3eda6b8e3946",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceSupportChronology.olean"
+    },
+    "QuiverProofs.MAExistenceTeamBAdjacentHurwitz": {
+      "sha256": "47f48aec3c0a516502ceabfe24a567c81c97eb340e8ac02bd84fe2f6c4881113",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamBAdjacentHurwitz.olean"
+    },
+    "QuiverProofs.MAExistenceTeamBCompanionClosure": {
+      "sha256": "9d4c92065d9c97fcd821015a3fb5bb2fb1cb89bc6bbc48988316d1a30504998b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamBCompanionClosure.olean"
+    },
+    "QuiverProofs.MAExistenceTeamBOrderMutation": {
+      "sha256": "9c3d6406dc1e8918d15f7f69ab04ee6150e4978cc3ecb089a2eea8c900d5f289",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamBOrderMutation.olean"
+    },
+    "QuiverProofs.MAExistenceTeamBRootOrderClosure": {
+      "sha256": "aad7492ef8b7908a6872318c825a144171317b45a0dae41700f588194fbca280",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamBRootOrderClosure.olean"
+    },
+    "QuiverProofs.MAExistenceTeamBRootPositivity": {
+      "sha256": "ae0599f0e60135166986f62cca7babd4e8d981a6b15c122ca3639c7e889a882c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamBRootPositivity.olean"
+    },
+    "QuiverProofs.MAExistenceTeamBRootWordExchange": {
+      "sha256": "121b43169a92394d78700a1e0382129f03d482b4f294bf659d7a2d2a14171a1f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamBRootWordExchange.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCCertificateTransport": {
+      "sha256": "5419594f9118ce162f93d63860d7f1ee4471399a89d886ce2d340bf25a468169",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCCertificateTransport.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCOrientedOutside": {
+      "sha256": "4821ce31ffcb65a6f899b0e1170d7a04726fd28d7bd844d4808e63cf62c3f96f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCOrientedOutside.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCRootSigns": {
+      "sha256": "1f87a1980e988a0d55b20b594058192d81705855474f3cbf4de8a70f09d37fcd",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCRootSigns.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCSeedStep": {
+      "sha256": "b8e9b749878a4f10060f730259a94ecc8fa4653e3989105c2ab07cf9418bc95d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCSeedStep.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCSelectedShear": {
+      "sha256": "88d8829bc54013218805be284423d46d55443187eb2f0764e42bf2859b8e9222",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCSelectedShear.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCTriangleOutside": {
+      "sha256": "3aaf44c00b68dcd4238f47e79946f930394f53ede13d1d263751d2b892382060",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCTriangleOutside.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCTrianglePivot": {
+      "sha256": "7bf31f7e37c619b554ba5d118cabc828670505224ffff8dcf1ecb449d761e8e3",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCTrianglePivot.olean"
+    },
+    "QuiverProofs.MAExistenceTeamCTriangleRefinedClosure": {
+      "sha256": "159afa4988320feb3e80eaca69b9a4190a7153991ea069af7a5534418dce9628",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamCTriangleRefinedClosure.olean"
+    },
+    "QuiverProofs.MAExistenceTeamDAdmissibility": {
+      "sha256": "162457b63248db6bf0c5f8ebf3898100fa0a21691996b99d62f7b4d6ce69b4fb",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamDAdmissibility.olean"
+    },
+    "QuiverProofs.MAExistenceTeamDArrowSigns": {
+      "sha256": "1a12e6a818d551715ce9836fdc5edc33b64dab0ea6da1ce122cf907225984d8b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamDArrowSigns.olean"
+    },
+    "QuiverProofs.MAExistenceTeamDJointSeed": {
+      "sha256": "2d38856a2b22e9a050371e92187403a1d173a17be8cbb3d3ecfae795fcb4c7e1",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamDJointSeed.olean"
+    },
+    "QuiverProofs.MAExistenceTeamDMutationSymmetry": {
+      "sha256": "1520f68fb6ad2ecb3352f4b3acf04f6677e3032765bd5abe458f53bdcb5417c5",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamDMutationSymmetry.olean"
+    },
+    "QuiverProofs.MAExistenceTeamDProperCertificate": {
+      "sha256": "c8d738352ed349e180c4a5590033ab8fb0a57bad6488b53d3d8dc2d790f48474",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAExistenceTeamDProperCertificate.olean"
+    },
+    "QuiverProofs.MAHasTotalProper4Completion": {
+      "sha256": "27517460e79b77ecaf6f1089c6e1fff16417c1d217086ba12123e8a1bed0b395",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MAHasTotalProper4Completion.olean"
+    },
+    "QuiverProofs.Mutation": {
+      "sha256": "20db2d1739b6db93964476caaccb4c8b9803c02bc74d1ce77bd5cc931a87895b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/Mutation.olean"
+    },
+    "QuiverProofs.MutationCongruence": {
+      "sha256": "e864837744f0d7f392c3693afe10a6f3b62dbdd4c908d1b34fdad2af21a588bf",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/MutationCongruence.olean"
+    },
+    "QuiverProofs.ProperEndpoint": {
+      "sha256": "56d3a4c4559526dc4cc6a7bb19967f9863f70d731632350182ef81f3e7ea4926",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpoint.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch00": {
+      "sha256": "a8e04457c3ad4fa874c9244e4dd7ef9cb0b9f8a23af82afe898a28bae6cbd79b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch00.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch01": {
+      "sha256": "01ab26b16bf9424e54bbf4f02e5d0fafbb0421097acff191b4004fbef5db308c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch01.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch02": {
+      "sha256": "6be1c1cc73ff99818ab9d9c2574bee0491c0aa702e0ef84a033457d48f009d76",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch02.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch03": {
+      "sha256": "a17dc1102433cd095e38500340532f85e305ad565481e5a2e62dce308daf852c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch03.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch04": {
+      "sha256": "0e495e84d6c1dfb3ca572969e217d76f3a4c8abee80b081fd5838546babc57e4",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch04.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch05": {
+      "sha256": "dc6ce8e2617eda3d732e85299b826fd61673a9abe8650f54ac17d0e29f1f0add",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch05.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch06": {
+      "sha256": "434c0ec619fb4c5f4185862bde4cf86debb4ed30e68f15b2ddaf0223cc6e562f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch06.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch07": {
+      "sha256": "d16a8e15aa7c58c8a9ea9bfc0e60c6e99d34362b8ba589c7db6b5b753887694b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch07.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch08": {
+      "sha256": "42ed31060d60eee418524bda632809dddf80a3ee1fa9cb842d69edca8314048f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch08.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch09": {
+      "sha256": "26cf0dca7d75ed565ab6c4fd605fd2de95acc9fc355e23d5ab8ce52043f5959f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch09.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch10": {
+      "sha256": "0c966f0172e1c1362f681081e6707c79e9a2af9dcd1b6bc820ce7461363e1563",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch10.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch11": {
+      "sha256": "e682695459962d668968fdd333cc5eda6814d885ba700ad1ee4cecd2074fa83d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch11.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch12": {
+      "sha256": "df3fd5e5e91c036bd539494296a1396b81397b35a9ae2f1f055d1be8a0dc15d7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch12.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch13": {
+      "sha256": "2e5bfe1708a566d0f5568cc1c5d8e0a90745c8c2589f1dfaba5a60e5520002ac",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch13.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch14": {
+      "sha256": "06ca8bfa88e5808cdfe8bbc27cddeda9fe9a94e79c8f0959e27c0d121def1216",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch14.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch15": {
+      "sha256": "097e3f761a91f1ea51d0a9aca35f5d36af7f3ab6277c5ce6a29e43c5ecc67ca8",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch15.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch16": {
+      "sha256": "742f01c7a969d8f8a98acf3e9e2a5c9e41609dafd6c102fe9087574e638c56a5",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch16.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch17": {
+      "sha256": "dd08426dab99061bccbf717eb50e54993f652fd6b81c98a2e1c29b4c98c7204c",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch17.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch18": {
+      "sha256": "9e74b9b3f5bb277d8af636e71648360d6cbea5c107685c10678e27858624b61e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch18.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch19": {
+      "sha256": "85fe153211651f7e966ce6c178614b0588ce2e4ca6b1fe842fa97c32e78b2418",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch19.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch20": {
+      "sha256": "7684d995b9c9c84174b1e360abe52947e510f945b47aa050bfbdbe0ef846535d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch20.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch21": {
+      "sha256": "9c7962a57d863885063c48c5c50b643262d0668fefb02178a7d8f6aa2b54fce4",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch21.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch22": {
+      "sha256": "dca4da745e53718364b2b8e64a14a16f290695653dc9ebf41685ec762f050894",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch22.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch23": {
+      "sha256": "7695e80fdabb6adb28480105db9d44300c50c2f41678c91e27b9e4c94144f0d4",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch23.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch24": {
+      "sha256": "811e22725f751be39b015224292d4c118266bf2e588c0ceaec66cc8c88e85ed6",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch24.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch25": {
+      "sha256": "924510e9ad4a06482df1fc59dddb03075c6d0f5ad67ec2fef122af1c814d18ab",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch25.olean"
+    },
+    "QuiverProofs.ProperEndpointBatches.Batch26": {
+      "sha256": "58ad7841d37f0423412414f35f1582a121b90681122785f6ef20805e0be8eccb",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointBatches/Batch26.olean"
+    },
+    "QuiverProofs.ProperEndpointData": {
+      "sha256": "0ca40187804ee36c84e373a3cdce4fa549c76636ea145dd167548872fa31d34e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointData.olean"
+    },
+    "QuiverProofs.ProperEndpointVerification": {
+      "sha256": "e18a84a692505a9293f32a124d45eb21aabaf61d3774cbdf98619dee8e433ab7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperEndpointVerification.olean"
+    },
+    "QuiverProofs.ProperMutation": {
+      "sha256": "a714f8a3d06a8f296d6ecdfa1eee434058d35abc7c706c3eb8870a5f3d449563",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutation.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch00": {
+      "sha256": "f8301c2df7490278607d9e0d21f622f27758fe370ea044377090f3c67d71fa7a",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch00.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch01": {
+      "sha256": "90447a2976a2a0ef85139825daabfcf5824bd40c8d31608eb27cbfc684f7b9a0",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch01.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch02": {
+      "sha256": "ec1090a39dad2f65d0def16f44c32756b152a75630936205fde6904f69b5d8b7",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch02.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch03": {
+      "sha256": "b3a56e0d0ccf655fe27e084a336e02c0a71d0267f58feddff01bc2cbbe699418",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch03.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch04": {
+      "sha256": "6916013207b9749a19feb9d1068039e6158dedafd4bfe68de90ffa4517ba09ab",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch04.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch05": {
+      "sha256": "4122a2350832fc070c6bb4b4201549f82e24129a80198275867cb1689262e406",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch05.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch06": {
+      "sha256": "36e7ad3b46aa5ace0155d5488440b6937eb92182fa5d9f9d8199fc53563f1ede",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch06.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch07": {
+      "sha256": "066d03fe92a249a27c00f628972ae383a6b9a27fcde49c6a7b7daa8fc79be45f",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch07.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch08": {
+      "sha256": "e8486df7dc01c5e6a2e84bc34c485819bb91809bbd6b478f3bb3a99e62635a63",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch08.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch09": {
+      "sha256": "dce4260629e2e43a12ed1ccd7b8c61dd2d3192424844f2f4916abb4c0b03fb8e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch09.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch10": {
+      "sha256": "856a816482951bea235b8b82e266bb3ddfaf911426ffe7464854a5c40221bc22",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch10.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch11": {
+      "sha256": "e7efa37be4931c7816147ffe7de133a4fbe97988458dab969ba21a0641272da0",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch11.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch12": {
+      "sha256": "23114a1b45e2e31e7d1b0c1865b846ad285603477093d55afbb55a3b8ba20c51",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch12.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch13": {
+      "sha256": "93126c80b9a7288057c1b16f9b9405abc82fe6eae945deacda77a63237629adf",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch13.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch14": {
+      "sha256": "48b5c9b733714ea892a7758d8915d9ca00ad8f29d602256a56fa339a715cd1bc",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch14.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch15": {
+      "sha256": "8b26ba1c18106cebb3c1f76aacf347fd30aea40c92752818a4d36794c1bb1987",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch15.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch16": {
+      "sha256": "aed06d097ae139abbffba08a39c5e989a8c6e1fff07487baaa884d4b932c8b31",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch16.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch17": {
+      "sha256": "8cda6da3c2810d4011349749e2d3754d6d19f74a615fd125812028175be8dfd4",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch17.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch18": {
+      "sha256": "6deaee829b625de76ede9846edc525bef4aaa594f35d450a1502d2e79906da04",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch18.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch19": {
+      "sha256": "20ef04e057527fea41d07ba4091af23cac36782718eac2cb3fc8b60e99d8f165",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch19.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch20": {
+      "sha256": "17332a6e327770d6752de81f98714579422e356be1eba6ff33c2def64308aff6",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch20.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch21": {
+      "sha256": "01f0bf9db5e9b67059ced86ed09e453fb3833a94a80bb5626865e190d1ff9cb0",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch21.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch22": {
+      "sha256": "b0b31be23784f3346c5dfd5887a1357a7ac8321183d0beeb5089de9e362ada8e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch22.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch23": {
+      "sha256": "d81c12a25d86d0b7cb5eec43cc91ddbb9a2408ffd8fa4ed438fe93db04b27e51",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch23.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch24": {
+      "sha256": "a6cf4fb58a551c2473790c17b6b557d35f1300876c010ac5bd5d0717fdf7eb00",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch24.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch25": {
+      "sha256": "e703a8df494fd03c84da3813cf73151c49e4fb7c219eac9bd46c4d4a55547334",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch25.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceBatches.Batch26": {
+      "sha256": "b0c94217d14408012ba9798eeb42f4a87256a360906dcb3920e998093aeb57f9",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceBatches/Batch26.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceChunkCode": {
+      "sha256": "7652f74ab4cb991ea4a3a82737e185edd9ef2c94dfc061fd80bd4baeb264676e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceChunkCode.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceTables": {
+      "sha256": "ab7809dc75617cc9fda136dc0f5dd29e445cc2d029180fefcfecd9bad59c679d",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceTables.olean"
+    },
+    "QuiverProofs.ProperMutationChoiceVerification": {
+      "sha256": "a1883f727a9de6ddc50a66e54b97ca2d1f47b1e8481d955cac6e05c45c2ddaf2",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationChoiceVerification.olean"
+    },
+    "QuiverProofs.ProperMutationClass": {
+      "sha256": "3f571236c94e40d8bd7e5c44d31567184d3c2dd3f374d04596e9ead34f669741",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationClass.olean"
+    },
+    "QuiverProofs.ProperMutationRepresentativeChoice": {
+      "sha256": "f97d7fba33e0c9414ce96e88c80096dd18be9f9c9e4be3e13bdcbeed3e46ef6e",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationRepresentativeChoice.olean"
+    },
+    "QuiverProofs.ProperMutationSignModel": {
+      "sha256": "21faf4e4594e24fd88434649f4272f04e791caba788bc9e5600ebf2b03f766c3",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationSignModel.olean"
+    },
+    "QuiverProofs.ProperMutationSupportVerification": {
+      "sha256": "234129bd33bf021ea951e92feb411185a09c5f7d86e29614e9eb6f0d2ad5d175",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperMutationSupportVerification.olean"
+    },
+    "QuiverProofs.ProperObstructionSoundness": {
+      "sha256": "e3f28ab6770263e6158ea459558390e1067deff2f23d070bdb8a861661ed2486",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperObstructionSoundness.olean"
+    },
+    "QuiverProofs.ProperOrder": {
+      "sha256": "3f0380675aade1df1af09f77be3b031626fb5234867e7fdaa9e55c5e0d94b0ad",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperOrder.olean"
+    },
+    "QuiverProofs.ProperWiggle": {
+      "sha256": "1ff4e5cbf9238e8958b024a7356741857b61dff5a41c831d6e8b791284122980",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperWiggle.olean"
+    },
+    "QuiverProofs.ProperWiggleData": {
+      "sha256": "44c1d5f3f382838bed3562c31c05447d0e3c913aa13fd76ae33f71cbbfe95b8b",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperWiggleData.olean"
+    },
+    "QuiverProofs.ProperWiggleInvariants": {
+      "sha256": "93d7b99b1a4b882d2a517fb8f3c74d95d2dba92d2946c016175605762a2fe949",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/ProperWiggleInvariants.olean"
+    },
+    "QuiverProofs.Symmetry": {
+      "sha256": "e88c808b4e3ddfa341f63a982764a4eabf60be65ffa3e95114c5fbb58fe8adb1",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-bridge/lib/lean/QuiverProofs/Symmetry.olean"
+    },
+    "Rank4Formula.FormulaLanguage": {
+      "sha256": "2f255c2de77ba7ea3b0bef8a86102b2ebc617ebd67e898cde3965b4a665c4e63",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/audit/build-extensions/lib/lean/Rank4Formula/FormulaLanguage.olean"
+    },
+    "Rank4Formula.PolynomialPullback": {
+      "sha256": "a36fd30bd8da28f9acc43b8b2e80242dfe99f95924f1d31de964993dd9f0db19",
+      "resolved": "/Users/kymani/Documents/Rank 4/research/round2/obstruction/build/Rank4Formula/PolynomialPullback.olean"
+    }
+  }
+}

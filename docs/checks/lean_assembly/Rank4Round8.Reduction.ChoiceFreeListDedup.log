@@ -1,0 +1,16 @@
+'Rank4Round8.Reduction.dedupMatrixList' depends on axioms: [propext, Quot.sound]
+'Rank4Round8.Reduction.listFrontierStepDedup' depends on axioms: [propext, Quot.sound]
+'Rank4Round8.Reduction.listFrontierStepDedup_fresh_nodup' depends on axioms: [propext, Quot.sound]
+'Rank4Round8.Reduction.listFrontierStepDedup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Rank4Round8.Reduction.listFrontierBoxInvariantDedup' depends on axioms: [propext, Quot.sound]
+'Rank4Round8.Reduction.listFrontierBoxInvariantDedup_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Rank4Round8.Reduction.listFrontierBoxInvariantDedup_MA_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Rank4Round8.Reduction.listFrontierBoxInvariantDedup_NMA_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Rank4Round8.Reduction.listFrontierProcessCountDedup_le_stateCount' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'Rank4Round8.Reduction.listFrontierAnswerMutationEvalsDedup' depends on axioms: [propext, Quot.sound]
+'Rank4Round8.Reduction.inputListFrontierMutationEvalsDedup' depends on axioms: [propext, Quot.sound]
+'Rank4Round8.Reduction.inputListFrontierMutationEvalsDedup_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

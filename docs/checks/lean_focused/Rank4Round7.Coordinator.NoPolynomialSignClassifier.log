@@ -1,0 +1,2 @@
+'Rank4Round7.Coordinator.no_fixed_polynomial_sign_classifier' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Rank4Round7.Coordinator.every_formula_fails' depends on axioms: [propext, Classical.choice, Quot.sound]

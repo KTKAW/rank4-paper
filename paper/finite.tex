@@ -1,0 +1,31 @@
+\section{A finite negative certificate}\label{app:finite}
+The following 24 labelled six-tuples form a closed mutation class. Row $i$ gives the four destination row indices under mutation at $0,1,2,3$. Each row has a directed cycle (equivalently, none of its 24 vertex permutations is entrywise nonnegative). Thus closure proves that every row is NMA, independently of the height theorem. In particular row 0 is the determinant-$4$ example used in Proposition~\ref{prop:invariant}.
+\begin{center}\small
+\begin{tabular}{r rrrrrr rrrr}\toprule
+& $a$&$b$&$c$&$d$&$e$&$f$&$\mu_0$&$\mu_1$&$\mu_2$&$\mu_3$\\\midrule
+0 & -2 & 1 & 1 & -1 & -1 & -1 & 22 & 22 & 3 & 11 \\
+1 & -2 & 1 & 1 & -1 & -1 & 1 & 23 & 23 & 5 & 6 \\
+2 & -1 & -1 & 1 & -1 & 1 & -2 & 20 & 12 & 7 & 7 \\
+3 & -1 & -1 & 1 & 1 & -2 & 1 & 21 & 14 & 0 & 14 \\
+4 & -1 & -1 & 2 & -1 & -1 & -1 & 18 & 13 & 9 & 18 \\
+5 & -1 & -1 & 2 & 1 & -1 & -1 & 19 & 16 & 1 & 19 \\
+6 & -1 & 1 & -1 & -2 & 1 & -1 & 16 & 15 & 15 & 1 \\
+7 & -1 & 1 & -1 & 1 & -1 & 2 & 17 & 18 & 2 & 2 \\
+8 & -1 & 1 & 1 & -2 & 1 & -1 & 14 & 17 & 17 & 10 \\
+9 & -1 & 1 & 1 & 1 & -2 & 1 & 15 & 20 & 4 & 20 \\
+10 & -1 & 2 & -1 & -1 & -1 & 1 & 12 & 19 & 12 & 8 \\
+11 & -1 & 2 & -1 & -1 & 1 & 1 & 13 & 21 & 13 & 0 \\
+12 & 1 & -2 & 1 & 1 & -1 & -1 & 10 & 2 & 10 & 23 \\
+13 & 1 & -2 & 1 & 1 & 1 & -1 & 11 & 4 & 11 & 15 \\
+14 & 1 & -1 & -1 & -1 & 2 & -1 & 8 & 3 & 19 & 3 \\
+15 & 1 & -1 & -1 & 2 & -1 & 1 & 9 & 6 & 6 & 13 \\
+16 & 1 & -1 & 1 & -1 & 1 & -2 & 6 & 5 & 21 & 21 \\
+17 & 1 & -1 & 1 & 2 & -1 & 1 & 7 & 8 & 8 & 22 \\
+18 & 1 & 1 & -2 & -1 & 1 & 1 & 4 & 7 & 22 & 4 \\
+19 & 1 & 1 & -2 & 1 & 1 & 1 & 5 & 10 & 14 & 5 \\
+20 & 1 & 1 & -1 & -1 & 2 & -1 & 2 & 9 & 23 & 9 \\
+21 & 1 & 1 & -1 & 1 & -1 & 2 & 3 & 11 & 16 & 16 \\
+22 & 2 & -1 & -1 & 1 & 1 & -1 & 0 & 0 & 18 & 17 \\
+23 & 2 & -1 & -1 & 1 & 1 & 1 & 1 & 1 & 20 & 12 \\
+\bottomrule\end{tabular}\end{center}
+There are only $24\cdot4=96$ mutation identities and $24\cdot24=576$ topological-order tests to replay. The independent checker regenerates this orbit from the seed and verifies both claims. Vertex relabelling identifies all of these states into the one finite negative class in the bounded census; the algorithm itself stores labelled states.

@@ -1,0 +1,15 @@
+name = "rank4_paper"
+version = "0.1.0"
+defaultTargets = ["Rank4Paper"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "f897ebcf72cd16f89ab4577d0c826cd14afaafc7"
+
+[[lean_lib]]
+name = "Rank4Paper"
+roots = ["MA4Arrow20261003", "MA4Coordinator20261003", "MA4EulerExternalOrthogonality01a0fee4", "MA4EulerMonoEpi01a0fee4", "MA4EulerMonoEpiTriangleConsumer01a0fee4", "MA4EulerRealizedNo301a0fee4", "MA4RestartArrow20261003", "MA4RestartCoordinator20261003", "MA4RestartEuler20261003", "QuiverProofs", "Rank4Adversarial", "Rank4AlgebraAudit", "Rank4C7A41E", "Rank4Construction", "Rank4Coordinator", "Rank4CoordinatorR2", "Rank4Formula", "Rank4Invariant", "Rank4ReviewRound2", "Rank4Round2", "Rank4Round3", "Rank4Round4", "Rank4Round5", "Rank4Round6", "Rank4Round7", "Rank4Round8", "Rank4StructureRound2", "Rank7Adversarial"]
+globs = ["Rank4CoordinatorR2.ClassificationCompletion", "QuiverProofs.BoundedClassificationCompletion", "Rank4Round7.Coordinator.NoPolynomialSignClassifier", "Rank4Round8.Arithmetic.AlternatingIntegerLine", "Rank4Round8.Reduction.ChoiceFreeListDedup", "QuiverProofs.Box"]
+moreLeanArgs = ["--trust=0", "-j1"]

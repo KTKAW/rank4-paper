@@ -1,0 +1,2 @@
+'Rank4Formula.Formula.eventually_constant_on_polynomialTuple' depends on axioms: [propext, Classical.choice, Quot.sound]
+'Rank4Formula.noAlgebraicMAFormula_of_polynomial_recurrence' depends on axioms: [propext, Classical.choice, Quot.sound]

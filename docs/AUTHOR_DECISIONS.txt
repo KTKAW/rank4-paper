@@ -1,0 +1,61 @@
+AUTHOR DETAILS AND DECISIONS (verified 9 October 2026)
+
+Author order is copied from arXiv:2411.04209v2 / J. Comput. Algebra 15 (2025),
+100040: Kymani T. K. Armstrong-Williams, Edward Hirst, Blake Jackson,
+Kyu-Hwan Lee. "My and Blake's affiliations" in the request was correctly
+interpreted as Edward's and Blake's, not Kymani's and Blake's.
+
+Kymani: Queen Mary University of London, Centre for Theoretical Physics and
+Astronomy. Institutional profile and email:
+https://www.qmul.ac.uk/spcs/staff/academics/profiles/kymani-armstrong-williams.html
+The paper uses k.t.k.armstrong-williams@qmul.ac.uk.
+
+Edward: Institute of Mathematics, Statistics and Scientific Computing,
+University of Campinas (Unicamp), 13083-859, Brazil; ehirst@unicamp.br.
+Sources: https://inspirehep.net/authors/1791403
+and https://arxiv.org/abs/2609.16129 (latest INSPIRE-listed paper inspected,
+v1 submitted 14 September 2026; PDF dated 16 September 2026).
+The current INSPIRE position is Campinas since 2025. Both the latest PDF
+and record supersede the previous paper's Queen Mary affiliation.
+
+Blake: Institute for Computer-Aided Reasoning in Mathematics, Carnegie
+Mellon University, 4720 Forbes Avenue, Pittsburgh, PA 15213, USA.
+The latest linked 2025 preprint initially inspected still listed UConn,
+which prompted a clarification request. Further checking resolved the
+institutional conflict: the published 2026 version of "A topology on the
+poset of quiver mutation classes" gives CMU and blakej@andrew.cmu.edu.
+https://www.blakejacksonmath.com/research
+https://polipapers.upv.es/index.php/AGT/article/view/24116
+https://polipapers.upv.es/index.php/AGT/article/download/24116/18518
+A more recent joint preprint also confirms CMU, using jackson@icarm.io:
+https://arxiv.org/html/2608.08538v1
+The draft uses the journal's institutional CMU email. Either current email
+is supported; authors may choose their preferred one before circulation.
+
+Kyu-Hwan: University of Connecticut and Korea Institute for Advanced Study;
+khlee@math.uconn.edu. His current home page confirms UConn and this email,
+and the August 2026 joint preprint confirms the additional KIAS address.
+https://khlee-math.github.io/
+https://arxiv.org/html/2608.08538v1
+
+FUNDING / ACKNOWLEDGEMENTS: confirmation remains necessary.
+Edward's latest paper lists FAPESP grant 2024/18994-7. Blake's August 2026
+paper lists ICARM support through NSF DMS-2425401. Blake's 2026 topology
+paper says that particular research received no external funding. These
+are project-specific statements, not evidence about the current project.
+No such statement or unrelated thanks/computing acknowledgement has been
+copied into this draft. The reply "yes" to an open question about which
+funding applies did not identify a grant or wording. A specific FAPESP
+clarification was requested; await confirmation for both authors' grants.
+
+REMAINING AUTHOR REVIEW
+1. Confirm which funding statements and acknowledgements apply here.
+2. Choose Blake's preferred current email (CMU or ICARM).
+3. Review the dense signed inequalities in Appendix A and the external
+   Warkentin mutation-class argument. Independent range tests do not replace
+   that review. No new counterexample or unresolved internal proof failure
+   was found; the full Lean dependency closure was not freshly rebuilt.
+4. Decide whether to keep the conditional Chelnokov consequence. Its real
+   invariance hypothesis is explicit; no integer-only extension is asserted.
+5. Agree a licence and eventual public archival destination before release.
+This draft is private and no collaborators have been contacted.

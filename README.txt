@@ -1,0 +1,47 @@
+MUTATION-ACYCLICITY OF FOUR-VERTEX QUIVERS
+Private research draft, 9 October 2026
+
+Start with paper/main.tex and docs/REPRODUCTION.txt. The manuscript gives the
+correction to the previous bounded theorem, polynomial-sign impossibility,
+a finite-height decision procedure, and measured experiments. The appendix
+includes the signed excursion argument and identifies its finite checks.
+
+Quick use (Python 3.9 or later; no third-party classifier dependencies):
+
+  python3 -m algorithm.classifier --format tuple '[-2,0,2,-2,0,-2]'
+  python3 -m algorithm.classifier --format tuple '[-2,-1,1,-1,2,-1]'
+  python3 scripts/verify.py
+
+In Python:
+  from algorithm.classifier import classify, analyze, analyze_tuple
+  A = [[0,1,1,1], [0,0,2,1], [0,0,0,1], [0,0,0,0]]
+  assert classify(A) == 'MA'
+  result = analyze_tuple((-2,-1,1,-1,2,-1))
+  print(result.label, result.witness, result.mutation_evaluations)
+
+classify accepts a DIRECTED ADJACENCY matrix: nonnegative exact integers,
+zero diagonal, no directed two-cycles. analyze_tuple accepts the six signed
+upper-triangle exchange entries in order 01,02,03,12,13,23. Positive means
+an arrow from the first vertex to the second. Do not pass a signed exchange
+matrix to classify; use from_exchange and analyze_tuple instead.
+
+Optional max_states and timeout limits return UNKNOWN in the diagnostic API
+and raise ResourceLimit in classify. A cap is never evidence of NMA. Every
+returned MA word is replayed by a separate matrix formula before returning.
+
+Contents:
+  paper/        LaTeX source, generated tables, figures
+  algorithm/    standard-library exact classifier and CLI
+  experiments/  all inputs, 384 raw measured calls, census and summaries
+  lean/         573 selected source modules and locked dependencies
+  environment/  benchmark version and plotting dependency lock
+  scripts/      independent checks, Lean replay and release preparation
+  docs/         source map, reviewer response, authorship decisions and checks
+
+The Python program is independently tested; it is not extracted from Lean
+and no end-to-end formal refinement of Python is claimed. Nine Lean modules
+were freshly compiled against recorded reused dependency objects. A full
+573-module clean build is a separate reproduction step.
+
+Keep this draft private. No collaborators have been contacted. No archival
+DOI is claimed. Copyright and third-party attribution: docs/ATTRIBUTION.txt.

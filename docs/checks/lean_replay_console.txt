@@ -1,0 +1,6 @@
+Rank4Formula.PolynomialTail True
+Rank7Adversarial.PolynomialAlternation True
+Rank4Round7.Coordinator.NoPolynomialSignClassifier True
+Rank4Round8.Arithmetic.AlternatingLineParity True
+Rank4Round8.Arithmetic.AlternatingLineRecognizer True
+Rank4Round8.Arithmetic.AlternatingIntegerLine True

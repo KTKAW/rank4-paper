@@ -1,0 +1,23 @@
+\section{Formal statements and the scope of the checks}\label{app:formal}
+The source package pins Lean 4.24.0 and mathlib commit
+\begin{center}\small\texttt{f897ebcf72cd16f89ab4577d0c826cd14afaafc7}.\end{center}
+It contains 573 project source modules, including the transitive dependencies of the selected entry points. Lean and mathlib are described in \cite{Lean,Mathlib}. The mathematical statements are over skew-symmetric integer matrices; the six-tuple conversion proves skew-symmetry rather than accepting it as an unchecked assumption.
+
+The following names identify the principal declarations; full namespaces and paths are listed in the source map. They are intended as navigation aids, not as replacements for the proofs.
+\begin{center}\small\begin{tabular}{p{.38\textwidth}p{.55\textwidth}}\toprule
+Mathematical statement & Lean declaration\\\midrule
+Bounded paths & \code{heightCoverage}\\
+Loop-erased word bound & \code{effectiveWordBound}\\
+Corrected bounded census & \code{corrected_bounded_classification}\\
+No rational polynomial-sign rule & \code{no_fixed_polynomial_sign_classifier}\\
+Integer alternating line & \code{alternatingLineInt_MA_iff}\\
+Deduplicated frontier semantics & \code{listFrontierBoxInvariantDedup_MA_iff}\\
+Frontier mutation count & \code{inputListFrontierMutationEvalsDedup_le}\\\bottomrule
+\end{tabular}\end{center}
+The original classifier assembly proves correctness of a finite enumeration of words. The later frontier development proves equality with the height-bounded reachable-state search and a bound on processed distinct states. The Python implementation uses a queue and dictionary for those same mathematical semantics, with its additional proved tests. We have not proved a refinement theorem connecting the Python source or interpreter to the Lean executable.
+
+For this draft, six affected modules were freshly compiled with \code{--trust=0 -j1}: the polynomial tail argument, the two seed/parity developments, the no-go theorem, the line recognizer and the integer-line assembly. The two negative seeds now use absence of a proper cyclic order. The unused height-related import and its ancillary identity were removed from the no-go module. The combined source import closure of these six modules has 216 project modules and contains neither the height-coverage assembly nor the bounded-classification assembly.
+
+Three further assembly modules were freshly compiled: the corrected bounded census, height coverage and the deduplicated frontier. All nine compilations succeeded. Their imported project dependency objects and external package objects were reused, with hashes recorded; this is not a fresh build of all 573 sources. Historical build records are separately identified. The printed theorem axiom closures use only the standard axioms \code{propext}, \code{Classical.choice} and \code{Quot.sound} (or subsets). These reports contain no \code{sorryAx}. The reproduction guide provides a full source-build command using only the pinned external dependencies, and preserves the source provenance of a historically split large finite proof.
+
+Independent Python checks regenerate the bounded representatives and replay all 695 certificates, the 24-state table, the finite endpoint exclusions and the small equal-wall core. They also compare two implementations of mutation, check saved positive benchmark witnesses, and exercise the printed parametric identities over explicitly recorded finite ranges. The range tests detect transcription errors; they do not prove the universal excursion lemmas. Chelnokov's theorem and the real-coefficient extension of the no-go proof are not claimed as formally checked here.
