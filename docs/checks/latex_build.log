@@ -5,13 +5,9 @@ Latexmk: Changing directory to 'rank4-paper/paper/'
 Latexmk: applying rule 'pdflatex'...
 Rule 'pdflatex':  Reasons for rerun
 Changed files or newly in use/created:
-  excursions.tex
-  main.tex
-  repository.tex
+  formal.tex
 Category 'changed_user':
-  excursions.tex
-  main.tex
-  repository.tex
+  formal.tex
 
 ------------
 Run number 1 of rule 'pdflatex'
@@ -119,9 +115,9 @@ dvips/lm/lm-mathit.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/l
 m-mathsy.enc}] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd)
 [2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 [3] [4] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd) [5]
-[6] [7] [8] [9] (./results.tex [10] [11]) (./repository.tex) (./excursions.tex
-[12 <./figures/performance.pdf>] [13] [14] [15] [16] [17] [18] [19] [20])
-(./finite.tex [21]) (./formal.tex [22])
+[6] [7] [8] [9] (./results.tex [10] [11]) (./repository.tex (./revision.tex))
+(./excursions.tex [12 <./figures/performance.pdf>] [13] [14] [15] [16] [17]
+[18] [19] [20]) (./finite.tex [21]) (./formal.tex [22])
 Underfull \hbox (badness 1184) in paragraph at lines 373--374
 []\T1/lmr/m/n/9 (+20) S. Fomin and S. Neville, \T1/lmr/m/it/9 (+20) Cycli-cally
  or-dered quiv-ers\T1/lmr/m/n/9 (+20) , Ad-vances in Math-e-mat-ics \T1/lmr/bx/
@@ -131,13 +127,7 @@ Underfull \hbox (badness 5359) in paragraph at lines 377--378
 []\T1/lmr/m/n/9 (+20) The math-lib Com-mu-nity, \T1/lmr/m/it/9 (+20) The Lean m
 ath-e-mat-i-cal li-brary\T1/lmr/m/n/9 (+20) , Pro-ceed-ings of CPP 2020, 367--3
 81.
-
-Underfull \vbox (badness 10000) has occurred while \output is active [23]
-[24] (./main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- )
+[23] (./main.aux) )
 (see the transcript file for additional information)</usr/local/texlive/2026/te
 xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026/texmf-dist/f
 onts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
@@ -159,12 +149,11 @@ pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/
 local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/texli
 ve/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
 exlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (24 pages, 546554 bytes).
+Output written on main.pdf (23 pages, 545489 bytes).
 Transcript written on main.log.
 Latexmk: Getting log file 'main.log'
 Latexmk: Examining 'main.fls'
 Latexmk: Examining 'main.log'
-Latexmk: References changed.
 Latexmk: Log file says output to 'main.pdf'
 Latexmk: applying rule 'pdflatex'...
 Rule 'pdflatex':  Reasons for rerun
@@ -277,9 +266,9 @@ dvips/lm/lm-mathit.enc}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/l
 m-mathsy.enc}] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd)
 [2{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 [3] [4] (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/t1lmtt.fd) [5]
-[6] [7] [8] [9] (./results.tex [10] [11]) (./repository.tex) (./excursions.tex
-[12 <./figures/performance.pdf>] [13] [14] [15] [16] [17] [18] [19] [20])
-(./finite.tex [21]) (./formal.tex [22])
+[6] [7] [8] [9] (./results.tex [10] [11]) (./repository.tex (./revision.tex))
+(./excursions.tex [12 <./figures/performance.pdf>] [13] [14] [15] [16] [17]
+[18] [19] [20]) (./finite.tex [21]) (./formal.tex [22])
 Underfull \hbox (badness 1184) in paragraph at lines 373--374
 []\T1/lmr/m/n/9 (+20) S. Fomin and S. Neville, \T1/lmr/m/it/9 (+20) Cycli-cally
  or-dered quiv-ers\T1/lmr/m/n/9 (+20) , Ad-vances in Math-e-mat-ics \T1/lmr/bx/
@@ -289,9 +278,7 @@ Underfull \hbox (badness 5359) in paragraph at lines 377--378
 []\T1/lmr/m/n/9 (+20) The math-lib Com-mu-nity, \T1/lmr/m/it/9 (+20) The Lean m
 ath-e-mat-i-cal li-brary\T1/lmr/m/n/9 (+20) , Pro-ceed-ings of CPP 2020, 367--3
 81.
-
-Underfull \vbox (badness 10000) has occurred while \output is active [23]
-[24] (./main.aux) )
+[23] (./main.aux) )
 (see the transcript file for additional information)</usr/local/texlive/2026/te
 xmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2026/texmf-dist/f
 onts/type1/public/lm/lmbx9.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/
@@ -313,7 +300,7 @@ pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/
 local/texlive/2026/texmf-dist/fonts/type1/public/lm/lmtt9.pfb></usr/local/texli
 ve/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/t
 exlive/2026/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (24 pages, 546554 bytes).
+Output written on main.pdf (23 pages, 545489 bytes).
 Transcript written on main.log.
 Latexmk: Getting log file 'main.log'
 Latexmk: Examining 'main.fls'
