@@ -9,5 +9,10 @@ numerical tables and figures; nine fresh Lean module checks with hashed reused
 dependencies; source and axiom audits; author/source review and response guide.
 Resolved Blake affiliation using the 2026 journal version (CMU). Funding remains
 unconfirmed. Prepared private local Git repository and reproducible release
-script; GitHub access authorization remains pending the explicit async question.
+script; at that stage GitHub access awaited the explicit async question.
 Final PDF/bundle checks and source commit are recorded by output/release-report.json.
+The user subsequently explicitly authorized private GitHub creation and upload
+and completed browser sign-in. Created KTKAW/rank4-paper with Private visibility.
+Added the repository URL to the manuscript and README. The release report records
+the source commit used to rebuild the PDF and tested Overleaf/research bundles.
+No collaborators have been invited or contacted.
