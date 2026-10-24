@@ -1,0 +1,62 @@
+Python 3.13.17 on Linux-6.18.44-fc-v153-x86_64-with-glibc2.39
+
+== unit and cross-implementation tests: tests.py [ok, 17 s]
+{'cross_implementation': 20000, 'algebraic_properties': 20000, 'pentagon': 20000, 'conventions': 1, 'proper_mutation_invariance': 14898, 'totally_proper_transport': 3000, 'checker_rejects_bad_certificates': 5, 'symbolic_vs_numeric_mutation': 3000}
+
+== appendix calculations (all parameter values): check_proofs.py [ok, 1 s]
+checked: 51 identities, 151 inequalities/contradictions, 70 mutation paths, 28 sign-pattern claims (55 patterns)
+All claims verified.
+
+== height-two census: generate certificates: census.py [ok, 2 s]
+{
+ "representatives": 695,
+ "connected": 667,
+ "mutation_acyclic": 561,
+ "mutation_acyclic_connected": 534,
+ "shortest_lengths": {
+  "0": 425,
+  "1": 118,
+  "2": 16,
+  "3": 2
+ },
+ "mutation_cyclic": 134,
+ "mutation_cyclic_connected": 133,
+ "certificate_types": {
+  "markov": 47,
+  "triangle": 46,
+  "vortex": 40
+ },
+ "certificate_depths": {
+  "0": 128,
+  "1": 4,
+  "2": 1
+ },
+ "markov_table_bound": 45,
+ "endpoint_signatures": 264
+}
+
+== height-two census: independent check: check_census.py [ok, 1 s]
+Census verified independently: {'acyclic_connected': 534, 'acyclic_disconnected': 27, 'cyclic_connected': 133, 'cyclic_disconnected': 1} signature table through M = 45
+
+== examples and remarks: examples.py [ok, 127 s]
+family Q(t): checked
+higher-rank family: 72 cases
+Remark 4.6: checked
+Example 5.4: component of 238 quivers within height 41, no obstruction (Markov table to 1175)
+Remark 5.6: checked for 1 <= x <= 29
+decision procedure: [((-2, 6, 4, -4, -2, 0), 'acyclic'), ((-2, 7, 5, -5, -3, 0), 'cyclic'), ((1, 1, -1, 1, 0, 0), 'acyclic'), ((-2, 0, 2, -2, 0, -2), 'cyclic'), ((-2, 1, 1, -1, -1, -1), 'cyclic')]
+
+== finite check of the local case analysis: bruteforce_local.py 6 [ok, 175 s]
+T = 3: excursions by type {}; problems: 0
+T = 4: excursions by type {}; problems: 0
+T = 5: excursions by type {'A_c': 12, 'prefix [1,2,1] (replaced by minimality)': 12, 'single arrow, only 1 and 2': 60}; problems: 0
+T = 6: excursions by type {'A_c': 12, 'no edge': 48, 'prefix [1,2,1] (replaced by minimality)': 12, 'single arrow, only 1 and 2': 72}; problems: 0
+Local analysis confirmed for T <= 6.
+
+== claim labels in the paper and in APPENDIX_CALCULATIONS.md: check_references.py /home/claude/paper/main.tex [ok, 1 s]
+APPENDIX_CALCULATIONS.md: 302 labels attached to steps; unknown: []; claims not attached: []; claims missing from the index: []
+main.tex: 301 claim citations, 300 distinct; unknown labels: []; claims never cited: []; missing files: []
+References consistent.
+
+== checksums: 22 files listed in SHA256SUMS.txt, all match
+ALL CHECKS PASSED

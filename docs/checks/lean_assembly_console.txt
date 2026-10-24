@@ -1,3 +1,0 @@
-QuiverProofs.BoundedClassificationCompletion True
-Rank4CoordinatorR2.ClassificationCompletion True
-Rank4Round8.Reduction.ChoiceFreeListDedup True

@@ -1,6 +1,0 @@
-'Rank7Adversarial.line_zero_MA' depends on axioms: [propext]
-'Rank7Adversarial.negativeSeed_NMA' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Rank7Adversarial.line_one_NMA' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Rank7Adversarial.line_translate' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Rank7Adversarial.line_four_mul_MA' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Rank7Adversarial.line_four_mul_add_one_NMA' depends on axioms: [propext, Classical.choice, Quot.sound]

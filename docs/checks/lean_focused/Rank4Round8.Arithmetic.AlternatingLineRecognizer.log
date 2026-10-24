@@ -1,5 +1,0 @@
-/Users/kymani/Documents/Rank 4/rank4-paper/lean/Rank4Round8/Arithmetic/AlternatingLineRecognizer.lean:31:55: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-
-Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-'Rank4Round8.Arithmetic.onAlternatingLine_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
-'Rank4Round8.Arithmetic.classifyLineTuple_spec' depends on axioms: [propext, Classical.choice, Quot.sound]

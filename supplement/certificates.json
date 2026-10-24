@@ -1,0 +1,11804 @@
+{
+ "A0.ord1": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "A0.ord2": {
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "A0.pb1": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "rs",
+    "mult": [
+     [
+      "1/2",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "r_le2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "s_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "r_le2",
+     "s_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.dneg-Epos": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "E_pos"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "d_neg"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "E_pos",
+     "d_neg"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.minusF-d3": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "de",
+    "mult": [
+     [
+      "1/2",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "d_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "e_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "d_hi",
+     "e_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.minusF-e3": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "de",
+    "mult": [
+     [
+      "1/2",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "d_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "e_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "d_lo",
+     "e_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.mu1P": {
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.mu2-dneg-Eneg": {
+  "0,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dneg"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Eneg"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.mu2-dneg-Epos": {
+  "0,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dneg"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Epos"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A1.mu2-dpos-Eneg": {
+  "0,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dpos"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Eneg"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.mu2-dpos-Epos": {
+  "0,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dpos"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Epos"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A1.mu3-E": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "E_pos"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.mu3-b1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "b2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "b2",
+     "d_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "b2",
+     "d_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.mu3-d1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "E_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "E_hi",
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "E_lo",
+     "d2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.mu3-dneg": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dneg"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A1.mu3-dpos": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dpos"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A1.second-dneg-Eneg": {
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.second-dpos-Epos": {
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.sq-paths": {
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "e_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.sq-paths2": {
+  "0,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "e_lo"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A1.u-c1-dehi": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "dehi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "nb2_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.u-c1-delo": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "delo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "fail"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.u-c1-f": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "fbig"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "nb1_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.u-case3-d2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/7",
+    "hyps": [
+     "ed"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "fail"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/7",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/7",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.u-case4": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/20",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/10",
+    "hyps": [
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/5",
+    "hyps": [
+     "ec"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/20",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/20",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/10",
+    "hyps": [
+     "d2",
+     "nb1_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/10",
+    "hyps": [
+     "d2",
+     "nb2_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/10",
+    "hyps": [
+     "d_lo",
+     "ec"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/10",
+    "hyps": [
+     "d_lo",
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/10",
+    "hyps": [
+     "d_lo",
+     "fail"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.u-d1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "e_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "fail"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A1.u-e1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "d_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "fail"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A2.d1-b1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2/3",
+    "hyps": [
+     "Kc"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "e1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "fail"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A2.d1-c1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/3",
+    "hyps": [
+     "Kb"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "Kc"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "fail"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A2.detour": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "e1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "e1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,3": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "d1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A2.neighbours1": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A2.neighbours2": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "e1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A3.W-form3": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "y3x3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "x3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "y3x3"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.W-form4": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "y4x4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "x4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "y4x4"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.W-mu2": {
+  "0,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x3"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "y3x3"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x4"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "y4x4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A3.W-mu3": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x3"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x3"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "y3x3"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A3.W-mu3-big": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "x3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "x4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "y3x3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "y4x4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "x3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "y3x3"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.W-mu4": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x4"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "y4x4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A3.W-mu4-big": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "x3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "x4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "x4"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.b23-big": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "4",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "y_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "a2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.b23-mu1-yneg": {
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "y0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "?"
+  }
+ },
+ "A3.b23-mu1-ypos": {
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "y0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "?"
+  }
+ },
+ "A3.b23-mu2": {
+  "0,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "?"
+  }
+ },
+ "A3.b23m-mu1": {
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "y0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "?"
+  }
+ },
+ "A3.b23m-mu1-ypos": {
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "y0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "?"
+  }
+ },
+ "A3.d0-Eneg": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/8",
+    "hyps": [
+     "Eneg"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/16",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "b1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "E_hi",
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "E_lo",
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "Eneg",
+     "b1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.dneg-Enonpos": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/8",
+    "hyps": [
+     "Enp"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/16",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "dn"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "E_hi",
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "E_lo",
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "Enp",
+     "b1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "c1",
+     "dn"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.dneg-Epos": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "Ep"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "dn"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "Ep",
+     "dn"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.form-gamma": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "use:A3.gamma_ge_E"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "Ec",
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "use:A3.gamma_ge_E"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.gamma-ge-E": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "Ec"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "Ec",
+     "a2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "a2",
+     "c1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.mu1-after": {
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "2",
+      "hyps": [
+       "d0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "a2",
+       "d0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "2",
+      "hyps": [
+       "Ec"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "Ec",
+       "a2"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "a2",
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A3.mu2-dneg-Epos": {
+  "0,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dn"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Ep"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A3.mu2-rest": {
+  "0,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Ec"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A3.mu2-then3": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "2",
+      "hyps": [
+       "d0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "a2",
+       "d0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "A3.mu2-then4": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "2",
+      "hyps": [
+       "Ec"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "Ec",
+       "a2"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "a2",
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "Ec"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A3.mu2-then4-E": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/4",
+    "hyps": [
+     "E2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "d0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "E2",
+     "E_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "E2",
+     "E_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.mu2-then4-d": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "Ec"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "d1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "E_hi",
+     "Ec"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "E_lo",
+     "Ec"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "c1",
+     "d_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "c1",
+     "d_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "A3.nb1": {
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "A3.nb2": {
+  "0,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "a2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "?"
+  }
+ },
+ "B1.ce-b2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "mu2C"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B1.dl-F5": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "dl",
+    "mult": [
+     [
+      "-1",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2",
+    "hyps": [
+     "F4hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3",
+    "hyps": [
+     "L3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3",
+    "hyps": [
+     "d3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "L3",
+     "d3"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B1.dl-L3": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "dl",
+    "mult": [
+     [
+      "1/2",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "d_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "small"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "d1",
+     "small"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B1.dl-d3": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "dl",
+    "mult": [
+     [
+      "1/2",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "L_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "small"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "L1",
+     "small"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B1.mu1C": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B1.mu2C": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "E0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B1.order": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "b1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "c1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "d1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "E1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B1.prefix": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "db"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "E1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "E1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B21.P-cpos": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B21.a-Q-eneg": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "e0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B21.a-Q-epos": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "e0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B21.a-d": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2",
+    "hyps": [
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1",
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi",
+     "d2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.a-eneg": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "en"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2",
+    "hyps": [
+     "r1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1",
+     "r1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi",
+     "r1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.a-epos": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "e1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "r1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "e1",
+     "r1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.a-r": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "r2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "c1",
+     "r2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "c_hi",
+     "r2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.b-Q": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "E1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B21.b-b1-E": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.b-b1-triangle": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "c1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "1",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "r1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "E1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "E1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B21.b-epos": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/3",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "e0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/12",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "r1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "b1",
+     "e0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "c1",
+     "r1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.b-mu3Q-a": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "rEF"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B21.b-mu3Q-b": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "rEF"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B21.b-rE2": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "rE",
+    "mult": [
+     [
+      "1/2",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "E_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "r_le2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "E1",
+     "r_le2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.b-rE3": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "rE",
+    "mult": [
+     [
+      "-4/37",
+      []
+     ]
+    ]
+   },
+   {
+    "eq": "rE",
+    "mult": [
+     [
+      "3/37",
+      [
+       [
+        "F",
+        1
+       ]
+      ]
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "13/37",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/37",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4/37",
+    "hyps": [
+     "r3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "9/37",
+    "hyps": [
+     "E1",
+     "E_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/37",
+    "hyps": [
+     "E1",
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4/37",
+    "hyps": [
+     "E1",
+     "r3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "6/37",
+    "hyps": [
+     "E_hi",
+     "E_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.c-Q": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "E1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B21.c-b2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "m3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "E1",
+     "c1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.c-b3": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "E_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2",
+    "hyps": [
+     "b3"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "F4",
+     "b3"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.c-epos": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "e0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/8",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "b1",
+     "e0"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-P": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B21.n-deq-b2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/3",
+    "hyps": [
+     "b2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "f_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/12",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "b2",
+     "f0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "b2",
+     "f_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-deq-order0": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "v1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B21.n-deq-order1": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "v1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B21.n-dgt": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "f_hi"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "f0",
+       "r1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "f_hi",
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B21.n-dgt-b1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-dgt-b2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "b2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/16",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/16",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "b2",
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "b2",
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "b2",
+     "m_p2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-dgt-r": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "f_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "r2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "r2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-dlt": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "d1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "r1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "f0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B21.n-dlt-f": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "f1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "r1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "f1",
+     "r1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-dlt-p": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/2",
+    "hyps": [
+     "b1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "d1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/8",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/8",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "b1",
+     "v1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "d1",
+     "t1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B21.n-vortex": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "b1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "d1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "v1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "fneg"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B22.bD-D": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "4/3",
+    "hyps": [
+     "D2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "D2",
+     "F4"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-cneg-b24": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "3",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "te"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  }
+ },
+ "B22.bD-cneg-et": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "et"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "f1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "z1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4",
+     "et"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-cneg-ete": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "te"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-cneg-f2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "f2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "z1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-cpos-e": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/3",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4/3",
+    "hyps": [
+     "e1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "z1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "F4",
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "F4",
+     "e1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-cpos-p": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "e0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "z1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "c1",
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "c1",
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "c1",
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "e0",
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "e0",
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "e0",
+     "m_p2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-fneg-e0": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t0"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "e0"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f0"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B22.bD-fneg-e1-00": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "B22.bD-fneg-e2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "t0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "e2",
+     "f0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "e2",
+     "f_lo"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.bD-order-f0": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B22.bD-order-t0": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "B22.bD-order-tf": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B22.bD-t0": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "B22.bD-vortex": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "F4"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "B22.bD-z": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "h_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "z2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "z2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.gF-acyclic": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "c1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B22.gF-bD": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "bD2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "e0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "D0",
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4",
+     "b1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.gF-e": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "D0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "b1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "e1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "D0",
+     "e1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "b1",
+     "e1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.gF-e0": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "en"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.hF-acyclic": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "b1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "D0"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "v1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f0"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B22.hF-f": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "D0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "b1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "f1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "D0",
+     "f1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "b1",
+     "f1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B22.paths-+++": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B22.paths-++-": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B22.paths-+-+": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B22.paths-+--": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B22.paths--++": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B22.paths--+-": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B22.paths---+": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B22.paths----": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "csign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "hsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "D0"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "b1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B23.eF-acyc1": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "D1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f0"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.eF-acyc2": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.eF-acyc3": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.eF-acyc4": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.eF-d0-x1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "xw"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.eF-d0-x2a": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "3/14",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/14",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/14",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "w0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/7",
+    "hyps": [
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "mT",
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/14",
+    "hyps": [
+     "m_2p",
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/14",
+    "hyps": [
+     "m_p2",
+     "x2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.eF-d0-x2b": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2/11",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "5/11",
+    "hyps": [
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "xw"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/11",
+    "hyps": [
+     "mT",
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "m_2p",
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "m_p2",
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/11",
+    "hyps": [
+     "wn",
+     "x2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.eF-dneg-w": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "D1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "w1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "D1",
+     "w1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.eF-dneg-x": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2/7",
+    "hyps": [
+     "D1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4/7",
+    "hyps": [
+     "x1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "xDv"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/7",
+    "hyps": [
+     "D1",
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "D1",
+     "v0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/7",
+    "hyps": [
+     "mT",
+     "x1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "m_2p",
+     "x1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "m_p2",
+     "x1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/7",
+    "hyps": [
+     "v0",
+     "x1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.eF-dpos-d": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "4",
+    "hyps": [
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "f_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "x0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t1",
+     "x0"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.eF-m01-big": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/3",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "t1",
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/6",
+    "hyps": [
+     "t1",
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "u1",
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/12",
+    "hyps": [],
+    "sq": [
+     [
+      "2",
+      [
+       [
+        "f",
+        1
+       ]
+      ]
+     ],
+     [
+      "-1",
+      [
+       [
+        "t",
+        1
+       ]
+      ]
+     ],
+     [
+      "-1",
+      [
+       [
+        "u",
+        1
+       ]
+      ]
+     ]
+    ]
+   }
+  ]
+ },
+ "B23.eF-m10-big": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "4/15",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2/5",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "8/15",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/5",
+    "hyps": [
+     "t1",
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4/15",
+    "hyps": [
+     "t1",
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4/15",
+    "hyps": [
+     "u1",
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/15",
+    "hyps": [],
+    "sq": [
+     [
+      "2",
+      [
+       [
+        "f",
+        1
+       ]
+      ]
+     ],
+     [
+      "-1",
+      [
+       [
+        "t",
+        1
+       ]
+      ]
+     ]
+    ]
+   }
+  ]
+ },
+ "B23.eF-ord01": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.eF-ord10": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "f1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.paths-+++": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B23.paths-++-": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B23.paths-+-+": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B23.paths-+--": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B23.paths--++": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B23.paths--+-": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B23.paths---+": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B23.paths----": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "esign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "x0"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "dsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "zsign"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B23.wF-d0-acyc": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.wF-d0-order": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "e1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "u1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B23.wF-d1-p": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/3",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/12",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dneg-D": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "4/3",
+    "hyps": [
+     "D2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/3",
+    "hyps": [
+     "D2",
+     "F4"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dneg-et": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "e_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "et"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dneg-z": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "mn_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "zz"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "zz"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dneg-zF": {
+  "const": "0",
+  "eqs": [
+   {
+    "eq": "z",
+    "mult": [
+     [
+      "1/6",
+      []
+     ]
+    ]
+   }
+  ],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/6",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/6",
+    "hyps": [
+     "et_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dneg-zF-D": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2",
+    "hyps": [
+     "D2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "et_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/2",
+    "hyps": [
+     "D2",
+     "F4"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dneg-zmF": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "4",
+    "hyps": [
+     "D1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "mn_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "x1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "D1",
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "x1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dpos-d": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "d2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "et"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1/4",
+    "hyps": [
+     "F4",
+     "d2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dpos-e": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "en"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dpos-e2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "et"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dpos-x": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "mn_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "4",
+    "hyps": [
+     "x2"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "F4",
+     "x2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-dpos-z": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "d1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ht"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "te"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "d1",
+     "te"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B23.wF-x": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "f_lo"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "x0"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t1",
+     "x0"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-forced-2Fc": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-forced-F2": {
+  "const": "6",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "3",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1",
+     "c1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2",
+    "hyps": [
+     "c1",
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi",
+     "c_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-forced-FFc": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c1",
+     "c_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi",
+     "c_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-forced1": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B3.A-forced1b": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B3.A-forced2": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B3.A-forced2b": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "0,2": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B3.A-low-hi0": {
+  "const": "1",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-low-hi1": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-low-lo0": {
+  "const": "1",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2",
+    "hyps": [
+     "c_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-low-lo1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "c1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.A-replacement": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B3.A-segment": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "2,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "3,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "3,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "3,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "4,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "4,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "4,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "c1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B3.I-low-tgu-hi0": {
+  "const": "2",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "2",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-hi1": {
+  "const": "5",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-hi2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "tu"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-hi3": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-hi4": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-hi5": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-lo0": {
+  "const": "1",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "tu"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-lo1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "tu"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-lo2": {
+  "const": "5",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-lo3": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-lo4": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-tgu-lo5": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-hi0": {
+  "const": "1",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "ut"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-hi1": {
+  "const": "5",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-hi2": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-hi3": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ut"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-hi4": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-hi5": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-lo0": {
+  "const": "2",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "2",
+    "hyps": [
+     "u_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-lo1": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "ut"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-lo2": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "u1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-lo3": {
+  "const": "5",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-lo4": {
+  "const": "4",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "F4"
+    ],
+    "sq": null
+   },
+   {
+    "c": "1",
+    "hyps": [
+     "u_hi"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-low-ugt-lo5": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "t1"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-segment": {
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "4",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "F4"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "u1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "B3.I-tgu": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t_hi"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "u1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "3,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "3,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "3,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "u1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "4,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "4,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "4,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  }
+ },
+ "B3.I-tt-k": {
+  "const": "0",
+  "eqs": [],
+  "kind": "sum",
+  "terms": [
+   {
+    "c": "1",
+    "hyps": [
+     "mT"
+    ],
+    "sq": null
+   },
+   {
+    "c": "3/8",
+    "hyps": [
+     "m_2p"
+    ],
+    "sq": null
+   },
+   {
+    "c": "5/8",
+    "hyps": [
+     "m_p2"
+    ],
+    "sq": null
+   }
+  ]
+ },
+ "B3.I-tt-triangle": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "2": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "1",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "k1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "k1"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "B3.I-ugt": {
+  "0,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,2": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "u_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "-"
+  },
+  "1,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "1,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "1,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "2,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "2,4": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t1"
+      ],
+      "sq": null
+     },
+     {
+      "c": "1",
+      "hyps": [
+       "u_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "3,1": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "3,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "3,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "u1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "4,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "4,3": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "4,4": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "u_hi"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "S3.Qneg": {
+  "0": {
+   "const": "1",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "tn"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "tn"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "tn"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "4",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "tn"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "S3.Qt-class": {
+  "0": {
+   "const": "1",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "1": {
+   "const": "4",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t3"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "2": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t3"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "2",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t3"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "t3"
+     ],
+     "sq": null
+    }
+   ]
+  }
+ },
+ "S3.recurrence": {
+  "0,1": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  },
+  "0,3": {
+   "cert": {
+    "const": "2",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,4": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "t2"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  }
+ },
+ "S5.Gx-acyclic": {
+  "0": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "x1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "1": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "x1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "3": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  },
+  "4": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": [
+    {
+     "c": "1",
+     "hyps": [
+      "x1"
+     ],
+     "sq": null
+    }
+   ]
+  },
+  "5": {
+   "const": "0",
+   "eqs": [],
+   "kind": "sum",
+   "terms": []
+  }
+ },
+ "S5.Gx-mu4": {
+  "0,1": {
+   "cert": {
+    "const": "0",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "+"
+  },
+  "0,2": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": [
+     {
+      "c": "1",
+      "hyps": [
+       "x1"
+      ],
+      "sq": null
+     }
+    ]
+   },
+   "sign": "+"
+  },
+  "0,3": {
+   "cert": {
+    "const": "1",
+    "eqs": [],
+    "kind": "sum",
+    "terms": []
+   },
+   "sign": "-"
+  }
+ }
+}
